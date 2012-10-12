@@ -1,20 +1,3 @@
-# viewsyncrelay config file
----
-
-# Actions tell viewsyncrelay to do something when a packet matches some conditions
-# "repeat" values can be:
-#   DEFAULT:
-#       Run the first time a packet matches conditions. Don't run again until
-#       after we get a packet that *doesn't* match the constraints
-#   ALL: Run each time a packet matches thesse constraints
-#   ONCE: Run once (duh!)
-#   RESET: Allows a reset_constraints section exactly like the constraints
-#       section. Runs the action once, but resets when the reset_constraints
-#       are matched, allowing the action to run again. These actions also allow
-#       an "initially_disabled" field, which, when set, means the action needs
-#       to be reset *before* it can run at all. Note that the presence of the
-#       initially_disabled key is sufficient to make it disabled; the value of
-#       the key doesn't matter.
 -
     name: 1 Lockheed
     input: ALL
