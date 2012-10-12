@@ -63,9 +63,9 @@ input_streams:
 #       the key doesn't matter.
 actions:
     -
-        name: 1 mplayer
+        name: 1 Lockheed
         input: ALL
-        action: unzip -p lg-chm.kmz audio/1.mp3 | mplayer -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
+        action: unzip -p /media/kml/lg-chm-master.kmz audio/1.mp3 | mplayer -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
         exit_action: killall mplayer
         repeat: DEFAULT
         constraints:
