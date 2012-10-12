@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+
+<Document>
+  <name>Silicon Valley Tour (Center)</name>
+  <visibility>1</visibility>
+  <open>0</open>
+
+	<!-- Set Styles -->
+	<Style id="default">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/pal3/icon60.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+
+  <Folder>
+	<name>Tour Assets</name>
+	<Placemark>
+		<name>Lockheed Martin</name>
+		<address>1111 Lockheed Martin Way, Sunnyvale, CA</address>
+		<styleUrl>#default</styleUrl>		
+		<Point>
+			<coordinates>-122.035618,37.41651,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<ScreenOverlay id="Lockheed Martin">
+ 		<name>1_Lockheed_Martin.png</name>
+	 	<visibility>1</visibility>
+  		<description>Title</description>       
+		<Icon>images/1_Lockheed_Martin.png</Icon>
+		<Region id="Region_Lockheed">
+			<LatLonAltBox>
+				<north>37.41751</north>
+				<south>37.41551</south>
+				<east>-122.034618</east>
+				<west>-122.036618</west>
+			</LatLonAltBox>
+			<Lod>
+				<minLodPixels>256</minLodPixels>
+				<maxLodPixels>-1</maxLodPixels>
+				<minFadeExtent>0</minFadeExtent>
+				<maxFadeExtent>0</maxFadeExtent>
+			</Lod>
+		</Region>
+		<overlayXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0.5" y="0.9" xunits="fraction" yunits="fraction"/>
+		<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+  		<rotation>0</rotation>
+ 	</ScreenOverlay>
+
+	<Placemark>
+		<name>HP Garage</name>
+		<address>367 Addison Avenue, Palo Alto, CA</address>
+		<gx:balloonVisibility>0</gx:balloonVisibility>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.154848871984,37.44309706985452,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<ScreenOverlay id="HP Garage">
+ 		<name>2_HP_Garage.png</name>
+	 	<visibility>1</visibility>
+  		<description>Title</description>       
+		<Icon>images/2_HP_Garage.png</Icon>
+		<Region id="Region_HP Garage">
+			<LatLonAltBox>
+				<north>37.44409706985452</north>
+				<south>37.44209706985452</south>
+				<east>-122.153848871984</east>
+				<west>-122.155848871984</west>
+			</LatLonAltBox>
+
+			<Lod>
+				<minLodPixels>256</minLodPixels>
+				<maxLodPixels>-1</maxLodPixels>
+				<minFadeExtent>0</minFadeExtent>
+				<maxFadeExtent>0</maxFadeExtent>
+			</Lod>
+		</Region>
+		<overlayXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0.5" y="0.9" xunits="fraction" yunits="fraction"/>
+		<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+  		<rotation>0</rotation>
+ 	</ScreenOverlay>
+
+	<Placemark>
+		<name>IBM RAMAC Disk Drive</name>
+		<address>5550 Cottle Road, San Jose, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-121.8960706644685,37.33598194967507,27.82375641808095
+			</coordinates>
+		</Point>
+	</Placemark>
+
+	<ScreenOverlay id="IBM RAMAC Disk Drive">
+ 		<name>3_IBM_RAMAC.png</name>
+	 	<visibility>1</visibility>
+  		<description>Title</description>       
+		<Icon>images/3_IBM_RAMAC.png</Icon>
+		<Region id="Region_IBM_RAMAC_Disk_Drive">
+			<LatLonAltBox>
+				<north>37.33698194967507</north>
+				<south>37.33498194967507</south>
+				<east>-121.8950706644685</east>
+				<west>-121.8970706644685</west>
+			</LatLonAltBox>
+			<Lod>
+				<minLodPixels>256</minLodPixels>
+				<maxLodPixels>-1</maxLodPixels>
+				<minFadeExtent>0</minFadeExtent>
+				<maxFadeExtent>0</maxFadeExtent>
+			</Lod>
+		</Region>
+		<overlayXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0.5" y="0.9" xunits="fraction" yunits="fraction"/>
+		<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+  		<rotation>0</rotation>
+ 	</ScreenOverlay>
+
+	<Placemark>
+		<name>Shockley Semiconductor</name>
+		<address>391 San Antonio Rd, San Antonio Shopping Center, Mountain View, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.110865,37.404869,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<ScreenOverlay id="Shockley Semiconductor">
+ 		<name>4_Shockley_Semiconductor.png</name>
+	 	<visibility>1</visibility>
+  		<description>Title</description>       
+		<Icon>images/4_Shockley_Semiconductor.png</Icon>
+		<Region id="Region_Shockley_Semiconductor">
+			<LatLonAltBox>
+				<north>37.405869</north>
+				<south>37.403869</south>
+				<east>-122.109865</east>
+				<west>-122.111865</west>
+			</LatLonAltBox>
+			<Lod>
+				<minLodPixels>256</minLodPixels>
+				<maxLodPixels>-1</maxLodPixels>
+				<minFadeExtent>0</minFadeExtent>
+				<maxFadeExtent>0</maxFadeExtent>
+			</Lod>
+		</Region>
+		<overlayXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0.5" y="0.9" xunits="fraction" yunits="fraction"/>
+		<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+  		<rotation>0</rotation>
+ 	</ScreenOverlay>
+
+	<Placemark>
+		<name>Fairchild Semiconductor</name>
+		<open>1</open>
+		<address>844 E Charleston Rd, Palo Alto, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.103327,37.421569,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<ScreenOverlay id="Fairchild Semiconductor">
+ 		<name>5_Fairchild_Semiconductor.png</name>
+	 	<visibility>1</visibility>
+  		<description>Title</description>       
+		<Icon>images/5_Fairchild_Semiconductor.png</Icon>
+		<Region id="Region_Fairchild_Semiconductor">
+			<LatLonAltBox>
+				<north>37.422569</north>
+				<south>37.420569</south>
+				<east>-122.102327</east>
+				<west>-122.104327</west>
+			</LatLonAltBox>
+			<Lod>
+				<minLodPixels>256</minLodPixels>
+				<maxLodPixels>-1</maxLodPixels>
+				<minFadeExtent>0</minFadeExtent>
+				<maxFadeExtent>0</maxFadeExtent>
+			</Lod>
+		</Region>
+		<overlayXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0.5" y="0.9" xunits="fraction" yunits="fraction"/>
+		<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+  		<rotation>0</rotation>
+ 	</ScreenOverlay>
+	
+	<Placemark>
+		<name>Intel</name>
+		<address>2200 Mission College Blvd, Santa Clara, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-121.963879,37.387684,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<ScreenOverlay id="Intel">
+ 		<name>6_Intel.png</name>
+	 	<visibility>1</visibility>
+  		<description>Title</description>       
+		<Icon>images/6_Intel.png</Icon>
+		<Region id="Region_Intel">
+			<LatLonAltBox>
+				<north>37.388684</north>
+				<south>37.386684</south>
+				<east>-121.962879</east>
+				<west>-121.964879</west>
+			</LatLonAltBox>
+			<Lod>
+				<minLodPixels>256</minLodPixels>
+				<maxLodPixels>-1</maxLodPixels>
+				<minFadeExtent>0</minFadeExtent>
+				<maxFadeExtent>0</maxFadeExtent>
+			</Lod>
+		</Region>
+		<overlayXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0.5" y="0.9" xunits="fraction" yunits="fraction"/>
+		<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+  		<rotation>0</rotation>
+ 	</ScreenOverlay>
+	
+	<Placemark>
+		<name>Xerox PARC</name>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.1474553586547,37.40275903134739,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<ScreenOverlay id="Xerox PARC">
+ 		<name>7_Xerox_PARC.png</name>
+	 	<visibility>1</visibility>
+  		<description>Title</description>       
+		<Icon>images/7_Xerox_PARC.png</Icon>
+		<Region id="Region_Xerox_PARC">
+			<LatLonAltBox>
+				<north>37.40375903134739</north>
+				<south>37.40175903134739</south>
+				<east>-122.1464553586547</east>
+				<west>-122.1484553586547</west>
+			</LatLonAltBox>
+			<Lod>
+				<minLodPixels>256</minLodPixels>
+				<maxLodPixels>-1</maxLodPixels>
+				<minFadeExtent>0</minFadeExtent>
+				<maxFadeExtent>0</maxFadeExtent>
+			</Lod>
+		</Region>
+		<overlayXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0.5" y="0.9" xunits="fraction" yunits="fraction"/>
+		<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+  		<rotation>0</rotation>
+ 	</ScreenOverlay>
+	
+	<Placemark>
+		<name>Atari</name>
+		<address>1196 Borregas Ave, Sunnyvale, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.019344,37.407581,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<ScreenOverlay id="Atari">
+ 		<name>8_Atari.png</name>
+	 	<visibility>1</visibility>
+  		<description>Title</description>       
+		<Icon>images/8_Atari.png</Icon>
+		<Region id="Region_Atari">
+			<LatLonAltBox>
+				<north>37.408581</north>
+				<south>37.406581</south>
+				<east>-122.018344</east>
+				<west>-122.020344</west>
+			</LatLonAltBox>
+			<Lod>
+				<minLodPixels>256</minLodPixels>
+				<maxLodPixels>-1</maxLodPixels>
+				<minFadeExtent>0</minFadeExtent>
+				<maxFadeExtent>0</maxFadeExtent>
+			</Lod>
+		</Region>
+		<overlayXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0.5" y="0.9" xunits="fraction" yunits="fraction"/>
+		<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+  		<rotation>0</rotation>
+ 	</ScreenOverlay>
+
+	<Placemark>
+		<name>Andy Capp’s Tavern</name>
+		<address>157 W El Camino Real, Sunnyvale, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.033592,37.368698,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<ScreenOverlay id="Andy Capp's Tavern">
+ 		<name>9_Andy_Capp.png</name>
+	 	<visibility>1</visibility>
+  		<description>Title</description>       
+		<Icon>images/9_Andy_Capp.png</Icon>
+		<Region id="Region_Lockheed">
+			<LatLonAltBox>
+				<north>37.369698</north>
+				<south>37.367698</south>
+				<east>-122.032592</east>
+				<west>-122.034592</west>
+			</LatLonAltBox>
+			<Lod>
+				<minLodPixels>256</minLodPixels>
+				<maxLodPixels>-1</maxLodPixels>
+				<minFadeExtent>0</minFadeExtent>
+				<maxFadeExtent>0</maxFadeExtent>
+			</Lod>
+		</Region>
+		<overlayXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0.5" y="0.9" xunits="fraction" yunits="fraction"/>
+		<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+  		<rotation>0</rotation>
+ 	</ScreenOverlay>
+	
+	<Placemark>
+		<name>Homebrew Computer Club</name>
+		<address>614 18th Ave, Menlo Park, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.190191,37.472189,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<ScreenOverlay id="Homebrew Computer Club">
+ 		<name>10_Homebrew_Computer.png</name>
+	 	<visibility>1</visibility>
+  		<description>Title</description>       
+		<Icon>images/10_Homebrew_Computer.png</Icon>
+		<Region id="Region_Homebrew_Computer_Club">
+			<LatLonAltBox>
+				<north>37.473189</north>
+				<south>37.471189</south>
+				<east>-122.189191</east>
+				<west>-122.191191</west>
+			</LatLonAltBox>
+			<Lod>
+				<minLodPixels>256</minLodPixels>
+				<maxLodPixels>-1</maxLodPixels>
+				<minFadeExtent>0</minFadeExtent>
+				<maxFadeExtent>0</maxFadeExtent>
+			</Lod>
+		</Region>
+		<overlayXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0.5" y="0.9" xunits="fraction" yunits="fraction"/>
+		<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+  		<rotation>0</rotation>
+ 	</ScreenOverlay>
+	
+	<Placemark>
+		<name>Apple Garage</name>
+		<address>2066 Crist Dr, Los Altos, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.068761,37.340194,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<ScreenOverlay id="Apple Garage">
+ 		<name>11_Apple_Garage</name>
+	 	<visibility>1</visibility>
+  		<description>Title</description>       
+		<Icon>images/11_Apple_Garage.png</Icon>
+		<Region id="Region_Apple_Garage">
+			<LatLonAltBox>
+				<north>37.341194</north>
+				<south>37.339194</south>
+				<east>-122.067761</east>
+				<west>-122.069761</west>
+			</LatLonAltBox>
+			<Lod>
+				<minLodPixels>256</minLodPixels>
+				<maxLodPixels>-1</maxLodPixels>
+				<minFadeExtent>0</minFadeExtent>
+				<maxFadeExtent>0</maxFadeExtent>
+			</Lod>
+		</Region>
+		<overlayXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0.5" y="0.9" xunits="fraction" yunits="fraction"/>
+		<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+  		<rotation>0</rotation>
+ 	</ScreenOverlay>
+
+	<Placemark>
+		<name>Stanford Research International</name>
+		<address>333 Ravenswood Ave, Menlo Park, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.177421,37.456846,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<ScreenOverlay id="Stanford Research International">
+ 		<name>12_SRI.png</name>
+	 	<visibility>1</visibility>
+  		<description>Title</description>       
+		<Icon>images/12_SRI.png</Icon>
+		<Region id="Region_Stanford_Research_International">
+			<LatLonAltBox>
+				<north>37.457846</north>
+				<south>37.455846</south>
+				<east>-122.176421</east>
+				<west>-122.178421</west>
+			</LatLonAltBox>
+			<Lod>
+				<minLodPixels>256</minLodPixels>
+				<maxLodPixels>-1</maxLodPixels>
+				<minFadeExtent>0</minFadeExtent>
+				<maxFadeExtent>0</maxFadeExtent>
+			</Lod>
+		</Region>
+		<overlayXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0.5" y="0.9" xunits="fraction" yunits="fraction"/>
+		<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+  		<rotation>0</rotation>
+ 	</ScreenOverlay>
+	
+	<Placemark>
+		<name>Silicon Graphics</name>
+		<address>1401 N. Shoreline Blvd., Mountain View, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.076922,37.414341,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<ScreenOverlay id="Silicon Graphics">
+ 		<name>13_Silicon_Graphics.png</name>
+	 	<visibility>1</visibility>
+  		<description>Title</description>       
+		<Icon>images/13_Silicon_Graphics.png</Icon>
+		<Region id="Region_Silicon_Graphics">
+			<LatLonAltBox>
+				<north>37.415341</north>
+				<south>37.413341</south>
+				<east>-122.075922</east>
+				<west>-122.077922</west>
+			</LatLonAltBox>
+			<Lod>
+				<minLodPixels>256</minLodPixels>
+				<maxLodPixels>-1</maxLodPixels>
+				<minFadeExtent>0</minFadeExtent>
+				<maxFadeExtent>0</maxFadeExtent>
+			</Lod>
+		</Region>
+		<overlayXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0.5" y="0.9" xunits="fraction" yunits="fraction"/>
+		<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+  		<rotation>0</rotation>
+ 	</ScreenOverlay>
+	
+	<Placemark>
+		<name>Adobe Systems</name>
+		<address>345 Park Ave, San Jose, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-121.893826,37.330805,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<ScreenOverlay id="Adobe Systems">
+ 		<name>14_Adobe_Systems.png</name>
+	 	<visibility>1</visibility>
+  		<description>Title</description>       
+		<Icon>images/14_Adobe_Systems.png</Icon>
+		<Region id="Region_Adobe_Systems">
+			<LatLonAltBox>
+				<north>37.331805</north>
+				<south>37.329805</south>
+				<east>-121.892826</east>
+				<west>-121.894826</west>
+			</LatLonAltBox>
+			<Lod>
+				<minLodPixels>256</minLodPixels>
+				<maxLodPixels>-1</maxLodPixels>
+				<minFadeExtent>0</minFadeExtent>
+				<maxFadeExtent>0</maxFadeExtent>
+			</Lod>
+		</Region>
+		<overlayXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0.5" y="0.9" xunits="fraction" yunits="fraction"/>
+		<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+  		<rotation>0</rotation>
+ 	</ScreenOverlay>
+	
+	<Placemark>
+		<name>Cisco Systems</name>
+		<address>300 E Tasman Dr, San Jose, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-121.932256,37.411934,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<ScreenOverlay id="Cisco Systems">
+ 		<name>15_Cisco_Systems.png</name>
+	 	<visibility>1</visibility>
+  		<description>Title</description>       
+		<Icon>images/15_Cisco_Systems.png</Icon>
+		<Region id="Region_Cisco_Systems">
+			<LatLonAltBox>
+				<north>37.412934</north>
+				<south>37.410934</south>
+				<east>-121.931256</east>
+				<west>-121.933256</west>
+			</LatLonAltBox>
+			<Lod>
+				<minLodPixels>256</minLodPixels>
+				<maxLodPixels>-1</maxLodPixels>
+				<minFadeExtent>0</minFadeExtent>
+				<maxFadeExtent>0</maxFadeExtent>
+			</Lod>
+		</Region>
+		<overlayXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0.5" y="0.9" xunits="fraction" yunits="fraction"/>
+		<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+  		<rotation>0</rotation>
+ 	</ScreenOverlay>
+	
+	<Placemark>
+		<name>Stanford Jacks Hall</name>
+		<address>Margaret Jacks Hall, Stanford, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.170363,37.428551,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<ScreenOverlay id="Stanford Jacks Hall">
+ 		<name>16_Stanford_Jacks_Hall.png</name>
+	 	<visibility>1</visibility>
+  		<description>Title</description>       
+		<Icon>images/16_Stanford_Jacks_Hall.png</Icon>
+		<Region id="Stanford Jacks Hall">
+			<LatLonAltBox>
+				<north>37.429551</north>
+				<south>37.427551</south>
+				<east>-122.169363</east>
+				<west>-122.171363</west>
+			</LatLonAltBox>
+			<Lod>
+				<minLodPixels>256</minLodPixels>
+				<maxLodPixels>-1</maxLodPixels>
+				<minFadeExtent>0</minFadeExtent>
+				<maxFadeExtent>0</maxFadeExtent>
+			</Lod>
+		</Region>
+		<overlayXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0.5" y="0.9" xunits="fraction" yunits="fraction"/>
+		<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+  		<rotation>0</rotation>
+ 	</ScreenOverlay>
+	
+	<Placemark>
+		<name>Netscape</name>
+		<address>501 E Middlefield Rd, Mountain View, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.0538,37.395834,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<ScreenOverlay id="Netscape">
+ 		<name>17_Netscape.png</name>
+	 	<visibility>1</visibility>
+  		<description>Title</description>       
+		<Icon>images/17_Netscape.png</Icon>
+		<Region id="Region_Netscape">
+			<LatLonAltBox>
+				<north>37.396834</north>
+				<south>37.394834</south>
+				<east>-122.0528</east>
+				<west>-122.0548</west>
+			</LatLonAltBox>
+			<Lod>
+				<minLodPixels>256</minLodPixels>
+				<maxLodPixels>-1</maxLodPixels>
+				<minFadeExtent>0</minFadeExtent>
+				<maxFadeExtent>0</maxFadeExtent>
+			</Lod>
+		</Region>
+		<overlayXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0.5" y="0.9" xunits="fraction" yunits="fraction"/>
+		<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+  		<rotation>0</rotation>
+ 	</ScreenOverlay>
+	
+	<Placemark>
+		<name>eBay</name>
+		<address>2145 Hamilton Ave, San Jose, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-121.927839,37.295473,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<ScreenOverlay id="eBay">
+ 		<name>18_eBay.png</name>
+	 	<visibility>1</visibility>
+  		<description>Title</description>       
+		<Icon>images/18_eBay.png</Icon>
+		<Region id="Region_eBay">
+			<LatLonAltBox>
+				<north>37.296473</north>
+				<south>37.294473</south>
+				<east>-121.926839</east>
+				<west>-121.928839</west>
+			</LatLonAltBox>
+			<Lod>
+				<minLodPixels>256</minLodPixels>
+				<maxLodPixels>-1</maxLodPixels>
+				<minFadeExtent>0</minFadeExtent>
+				<maxFadeExtent>0</maxFadeExtent>
+			</Lod>
+		</Region>
+		<overlayXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0.5" y="0.9" xunits="fraction" yunits="fraction"/>
+		<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+  		<rotation>0</rotation>
+ 	</ScreenOverlay>
+	
+	<Placemark>
+		<name>Google Garage</name>
+		<address>232 Santa Margarita Ave, Menlo Park, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.163602,37.457678,0</coordinates>
+		</Point>
+	</Placemark>
+	
+	<ScreenOverlay id="Google Garage">
+ 		<name>19_Google_Garage.png</name>
+	 	<visibility>1</visibility>
+  		<description>Title</description>       
+		<Icon>images/19_Google_Garage.png</Icon>
+		<Region id="Region_Google_Garage">
+			<LatLonAltBox>
+				<north>37.458678</north>
+				<south>37.456678</south>
+				<east>-122.162602</east>
+				<west>-122.164602</west>
+			</LatLonAltBox>
+			<Lod>
+				<minLodPixels>256</minLodPixels>
+				<maxLodPixels>-1</maxLodPixels>
+				<minFadeExtent>0</minFadeExtent>
+				<maxFadeExtent>0</maxFadeExtent>
+			</Lod>
+		</Region>
+		<overlayXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0.5" y="0.9" xunits="fraction" yunits="fraction"/>
+		<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+  		<rotation>0</rotation>
+ 	</ScreenOverlay>
+
+	<Placemark>
+		<name>Facebook House</name>
+		<address>819 La Jennifer Way, Palo Alto, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.13479,37.411782,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<ScreenOverlay id="Facebook House">
+ 		<name>20_Facebook_House.png</name>
+	 	<visibility>1</visibility>
+  		<description>Title</description>       
+		<Icon>images/20_Facebook_House.png</Icon>
+		<Region id="Facebook House">
+			<LatLonAltBox>
+				<north>37.412782</north>
+				<south>37.410782</south>
+				<east>-122.13379</east>
+				<west>-122.13579</west>
+			</LatLonAltBox>
+			<Lod>
+				<minLodPixels>256</minLodPixels>
+				<maxLodPixels>-1</maxLodPixels>
+				<minFadeExtent>0</minFadeExtent>
+				<maxFadeExtent>0</maxFadeExtent>
+			</Lod>
+		</Region>
+		<overlayXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0.5" y="0.9" xunits="fraction" yunits="fraction"/>
+		<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+  		<rotation>0</rotation>
+ 	</ScreenOverlay>
+
+  </Folder>
+
+</Document>
+</kml>

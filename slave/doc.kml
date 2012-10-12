@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+
+<Document>
+  <name>Silicon Valley Tour (Slave)</name>
+  <visibility>1</visibility>
+  <open>0</open>
+
+	<!-- Set Styles -->
+	<Style id="default">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/pal3/icon60.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+
+  <Folder>
+	<name>Tour Assets</name>
+	<Placemark>
+		<name>Lockheed Martin</name>
+		<address>1111 Lockheed Martin Way, Sunnyvale, CA</address>
+		<styleUrl>#default</styleUrl>		
+		<Point>
+			<coordinates>-122.035618,37.41651,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>HP Garage</name>
+		<address>367 Addison Avenue, Palo Alto, CA</address>
+		<gx:balloonVisibility>0</gx:balloonVisibility>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.154848871984,37.44309706985452,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>IBM RAMAC Disk Drive</name>
+		<address>5550 Cottle Road, San Jose, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-121.8960706644685,37.33598194967507,27.82375641808095
+			</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>Shockley Semiconductor</name>
+		<address>391 San Antonio Rd, San Antonio Shopping Center, Mountain View, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.110865,37.404869,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>Fairchild Semiconductor</name>
+		<open>1</open>
+		<address>844 E Charleston Rd, Palo Alto, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.103327,37.421569,0</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Intel</name>
+		<address>2200 Mission College Blvd, Santa Clara, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-121.963879,37.387684,0</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Xerox PARC</name>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.1474553586547,37.40275903134739,0</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Atari</name>
+		<address>1196 Borregas Ave, Sunnyvale, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.019344,37.407581,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>Andy Capp’s Tavern</name>
+		<address>157 W El Camino Real, Sunnyvale, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.033592,37.368698,0</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Homebrew Computer Club</name>
+		<address>614 18th Ave, Menlo Park, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.190191,37.472189,0</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Apple Garage</name>
+		<address>2066 Crist Dr, Los Altos, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.068761,37.340194,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>Stanford Research International</name>
+		<address>333 Ravenswood Ave, Menlo Park, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.177421,37.456846,0</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Silicon Graphics</name>
+		<address>1401 N. Shoreline Blvd., Mountain View, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.076922,37.414341,0</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Adobe Systems</name>
+		<address>345 Park Ave, San Jose, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-121.893826,37.330805,0</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Cisco Systems</name>
+		<address>300 E Tasman Dr, San Jose, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-121.932256,37.411934,0</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Stanford Jacks Hall</name>
+		<address>Margaret Jacks Hall, Stanford, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.170363,37.428551,0</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Netscape</name>
+		<address>501 E Middlefield Rd, Mountain View, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.0538,37.395834,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>eBay</name>
+		<address>2145 Hamilton Ave, San Jose, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-121.927839,37.295473,0</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Google Garage</name>
+		<address>232 Santa Margarita Ave, Menlo Park, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.163602,37.457678,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>Facebook House</name>
+		<address>819 La Jennifer Way, Palo Alto, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.13479,37.411782,0</coordinates>
+		</Point>
+	</Placemark>
+
+  </Folder>
+
+</Document>
+</kml>

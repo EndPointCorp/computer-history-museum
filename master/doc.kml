@@ -1,0 +1,2041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+
+<Document>
+  <name>Silicon Valley Tour (Master)</name>
+  <visibility>1</visibility>
+  <open>0</open>
+
+	<!-- Set Styles -->
+	<Style id="default">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.gstatic.com/intl/en_us/mapfiles/kml/pal3/icon60.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="pop_up">
+      		<IconStyle id="pop_up_IconStyle">
+        		<scale>1.0</scale>
+        		<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+        		<Icon id="client_tour_Icon_476">
+          			<href>images/galaxyPlay.png</href>
+        		</Icon>
+      		</IconStyle>
+      		<BalloonStyle id="pop_up_BalloonStyle">
+        	<bgColor>ffffffff</bgColor>
+        	<text><![CDATA[<html>
+                	<body style="width: 180px">
+                    	<div style="font-size: large;"><p align="center">$[description]</p></div>
+                	</body>
+            		</html>]]></text>
+        	<textColor>ff000000</textColor>
+       		<displayMode>default</displayMode>
+      		</BalloonStyle>
+    	</Style>
+
+  <Folder>
+	<name>Tour Assets</name>
+	<Placemark>
+		<name>Lockheed Martin</name>
+		<address>1111 Lockheed Martin Way, Sunnyvale, CA</address>
+		<styleUrl>#default</styleUrl>		
+		<Point>
+			<coordinates>-122.035618,37.41651,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>HP Garage</name>
+		<address>367 Addison Avenue, Palo Alto, CA</address>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.154848871984,37.44309706985452,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>IBM RAMAC Disk Drive</name>
+		<address>5550 Cottle Road, San Jose, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-121.8960706644685,37.33598194967507,27.82375641808095
+			</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>Shockley Semiconductor</name>
+		<address>391 San Antonio Rd, San Antonio Shopping Center, Mountain View, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.110865,37.404869,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>Fairchild Semiconductor</name>
+		<open>1</open>
+		<address>844 E Charleston Rd, Palo Alto, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.103327,37.421569,0</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Intel</name>
+		<address>2200 Mission College Blvd, Santa Clara, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-121.963879,37.387684,0</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Xerox PARC</name>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.1474553586547,37.40275903134739,0</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Atari</name>
+		<address>1196 Borregas Ave, Sunnyvale, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.019344,37.407581,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>Andy Capp’s Tavern</name>
+		<address>157 W El Camino Real, Sunnyvale, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.033592,37.368698,0</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Homebrew Computer Club</name>
+		<address>614 18th Ave, Menlo Park, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.190191,37.472189,0</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Apple Garage</name>
+		<address>2066 Crist Dr, Los Altos, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.068761,37.340194,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>Stanford Research International</name>
+		<address>333 Ravenswood Ave, Menlo Park, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.177421,37.456846,0</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Silicon Graphics</name>
+		<address>1401 N. Shoreline Blvd., Mountain View, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.076922,37.414341,0</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Adobe Systems</name>
+		<address>345 Park Ave, San Jose, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-121.893826,37.330805,0</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Cisco Systems</name>
+		<address>300 E Tasman Dr, San Jose, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-121.932256,37.411934,0</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Stanford Jacks Hall</name>
+		<address>Margaret Jacks Hall, Stanford, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.170363,37.428551,0</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Netscape</name>
+		<address>501 E Middlefield Rd, Mountain View, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.0538,37.395834,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>eBay</name>
+		<address>2145 Hamilton Ave, San Jose, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-121.927839,37.295473,0</coordinates>
+		</Point>
+	</Placemark>
+	
+	<Placemark>
+		<name>Google Garage</name>
+		<address>232 Santa Margarita Ave, Menlo Park, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.163602,37.457678,0</coordinates>
+		</Point>
+	</Placemark>
+
+	<Placemark>
+		<name>Facebook House</name>
+		<address>819 La Jennifer Way, Palo Alto, CA</address>
+		<styleUrl>#default</styleUrl>
+		<Point>
+			<coordinates>-122.13479,37.411782,0</coordinates>
+		</Point>
+	</Placemark>
+
+      <ScreenOverlay id="tour_Play">
+		<name/>
+		<visibility>1</visibility>
+		<open>0</open>
+		<description><![CDATA[<html><body><a href="#silicon_valley_tour;flyto"><img src="images/galaxyPlay.png" /><br>Play Silicon Valley tour</a><br />
+        	</body></html>]]></description>
+		<styleUrl>#pop_up</styleUrl>
+		<Icon id="silicon_valley_tour_icon"/>
+		<overlayXY x="0.0" y="1.0" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0.0" y="1.0" xunits="fraction" yunits="fraction"/>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+      </ScreenOverlay>
+
+  </Folder>
+
+
+	<!-- ********************** --> 
+	<!-- ** TOUR STARTS HERE ** -->
+	<!-- ********************** -->
+	
+
+  <gx:Tour id="silicon_valley_tour">
+    <name>Play Silicon Vally Tour</name>
+    <gx:Playlist>
+
+	<!-- Close tour pop-up upon play -->
+	<gx:AnimatedUpdate id="remove_Update">
+        	<gx:duration/>
+          	<Update>
+           	<targetHref/>
+            	<Change>
+              		<ScreenOverlay targetId="tour_Play">
+                	<gx:balloonVisibility>0</gx:balloonVisibility>
+              	</ScreenOverlay>
+           	</Change>
+          	</Update>
+        </gx:AnimatedUpdate>
+
+	<!-- Set up California Region -->
+	<gx:FlyTo>
+		<gx:duration>8.0</gx:duration>		
+		<Camera>
+			<longitude>-121.760021724721</longitude>
+			<latitude>37.70480639915292</latitude>
+			<altitude>782816.7123947259</altitude>
+			<heading>26.65173482795031</heading>
+			<tilt>1.046818084127447</tilt>
+			<roll>29.32632663107285</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+	<!-- Zoom to Silicon Valley Pivot View -->
+	<gx:FlyTo>
+		<gx:duration>7.0</gx:duration>		
+		<Camera>
+			<longitude>-122.0440723282845</longitude>
+			<latitude>37.38588475044155</latitude>
+			<altitude>21774.00555376502</altitude>
+			<heading>45.26068845788524</heading>
+			<tilt>1.377796823899814</tilt>
+			<roll>30.0847115774105</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>	
+	
+      	<gx:Wait>
+        	<gx:duration>2.0</gx:duration>
+      	</gx:Wait>
+
+
+	<!-- Lockheed Martin -->
+
+	<!-- Approach Setup -->
+
+			<!-- Audio cue VO 1_1-2  through next 10 sec -->
+	<gx:FlyTo>
+		<gx:duration>6.0</gx:duration>
+		<LookAt>
+			<longitude>-122.0353852983212</longitude>
+			<latitude>37.4152925420173</latitude>
+			<altitude>0</altitude>
+			<heading>14.3651244480719</heading>
+			<tilt>9.970493281099351</tilt>
+			<range>898.55322836111</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>	
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<LookAt>
+			<longitude>-122.0358326826667</longitude>
+			<latitude>37.41616926400634</latitude>
+			<altitude>0</altitude>
+			<heading>159.4695754427717</heading>
+			<tilt>62.25771137257494</tilt>
+			<range>244.5127596840134</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>5.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<LookAt>
+			<longitude>-122.0353852983212</longitude>
+			<latitude>37.4152925420173</latitude>
+			<altitude>0</altitude>
+			<heading>14.3651244480719</heading>
+			<tilt>9.970493281099351</tilt>
+			<range>898.55322836111</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>3.0</gx:duration>
+      	</gx:Wait>
+
+	<!-- Pivot to Silicon Valley Reset view -->
+	<gx:FlyTo>
+		<gx:duration>6.0</gx:duration>
+		<Camera>
+			<longitude>-122.0440723282845</longitude>
+			<latitude>37.38588475044155</latitude>
+			<altitude>21774.00555376502</altitude>
+			<heading>45.26068845788524</heading>
+			<tilt>1.377796823899814</tilt>
+			<roll>30.0847115774105</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>2.0</gx:duration>
+      	</gx:Wait>
+
+
+	<!-- HP Garage -->
+
+	<!-- Approach Setup -->
+
+			<!-- Audio cue VO 1_1-2  through next 12 sec -->
+	<gx:FlyTo>
+		<gx:duration>6.0</gx:duration>
+		<Camera>
+			<longitude>-122.1538963044452</longitude>
+			<latitude>37.44250522499642</latitude>
+			<altitude>171.0891339055349</altitude>
+			<heading>-50.80903715177812</heading>
+			<tilt>25.29380571985923</tilt>
+			<roll>1.244049876930563</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+	<gx:FlyTo>
+		<gx:duration>3.0</gx:duration>
+		<LookAt>
+			<gx:ViewerOptions>
+				<gx:option enabled="0" name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-122.1547222101791</longitude>
+			<latitude>37.44300160322339</latitude>
+			<altitude>0</altitude>
+			<heading>-56.85736835444554</heading>
+			<tilt>85.36484796088284</tilt>
+			<range>25.86247643561957</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>9.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>3.0</gx:duration>
+		<Camera>
+			<longitude>-122.1538963044452</longitude>
+			<latitude>37.44250522499642</latitude>
+			<altitude>171.0891339055349</altitude>
+			<heading>-50.80903715177812</heading>
+			<tilt>25.29380571985923</tilt>
+			<roll>1.244049876930563</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+	
+	<!-- Pivot to Silicon Valley Reset view -->
+	<gx:FlyTo>
+		<gx:duration>5.0</gx:duration>
+		<Camera>
+			<longitude>-122.0440723282845</longitude>
+			<latitude>37.38588475044155</latitude>
+			<altitude>21774.00555376502</altitude>
+			<heading>45.26068845788524</heading>
+			<tilt>1.377796823899814</tilt>
+			<roll>30.0847115774105</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>2.0</gx:duration>
+      	</gx:Wait>
+
+
+	<!-- IBM RAMAC Disk Drive -->
+
+	<!-- Approach Setup -->
+
+			<!-- Audio cue VO 1_1-2  through next 13 sec -->
+	<gx:FlyTo>
+		<gx:duration>5.0</gx:duration>
+		<LookAt>
+			<longitude>-121.8961924805568</longitude>
+			<latitude>37.33585260882456</latitude>
+			<altitude>0</altitude>
+			<heading>-93.59866640833745</heading>
+			<tilt>49.0372502267168</tilt>
+			<range>281.6797345710227</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+	<gx:Wait>
+        	<gx:duration>3.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>3.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option enabled="0" name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-121.89578</longitude>
+			<latitude>37.33587999999985</latitude>
+			<altitude>2.499999999101052</altitude>
+			<heading>-71.05207855130524</heading>
+			<tilt>90.2362697943588</tilt>
+			<roll>-8.715698220495839e-14</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+	<gx:Wait>
+        	<gx:duration>4.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>3.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option enabled="0" name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-121.8959079999999</longitude>
+			<latitude>37.3360430000002</latitude>
+			<altitude>2.5000000003441</altitude>
+			<heading>-113.63211184049</heading>
+			<tilt>91.4603496942331</tilt>
+			<roll>9.733847469187637e-13</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+	<gx:Wait>
+        	<gx:duration>4.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<LookAt>
+			<longitude>-121.8961924805568</longitude>
+			<latitude>37.33585260882456</latitude>
+			<altitude>0</altitude>
+			<heading>-93.59866640833745</heading>
+			<tilt>49.0372502267168</tilt>
+			<range>281.6797345710227</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+
+	<!-- Pivot to Silicon Valley Reset view -->
+	<gx:FlyTo>
+		<gx:duration>5.0</gx:duration>
+		<Camera>
+			<longitude>-122.0440723282845</longitude>
+			<latitude>37.38588475044155</latitude>
+			<altitude>21774.00555376502</altitude>
+			<heading>45.26068845788524</heading>
+			<tilt>1.377796823899814</tilt>
+			<roll>30.0847115774105</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>2.0</gx:duration>
+      	</gx:Wait>
+
+
+	<!-- Shockley Semiconductor -->
+
+	<!-- Approach Setup -->
+
+			<!-- Audio cue VO 1_1-2  through next 19 sec -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<LookAt>
+			<longitude>-122.1108444627913</longitude>
+			<latitude>37.40477406123934</latitude>
+			<altitude>0</altitude>
+			<heading>3.95802413971383</heading>
+			<tilt>44.45365470091492</tilt>
+			<range>95.24762171286075</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+	<gx:FlyTo>
+		<gx:duration>3.0</gx:duration>
+		<LookAt>
+			<longitude>-122.111044546417</longitude>
+			<latitude>37.40487167043284</latitude>
+			<altitude>0</altitude>
+			<heading>83.05044047285416</heading>
+			<tilt>49.22522866471915</tilt>
+			<range>92.88251847285409</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<LookAt>
+			<gx:ViewerOptions>
+				<gx:option enabled="0" name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-122.110811971083</longitude>
+			<latitude>37.40496030080485</latitude>
+			<altitude>0</altitude>
+			<heading>91.86214789380689</heading>
+			<tilt>86.33847781759201</tilt>
+			<range>40.16366156171192</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>4.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<LookAt>
+			<longitude>-122.111044546417</longitude>
+			<latitude>37.40487167043284</latitude>
+			<altitude>0</altitude>
+			<heading>83.05044047285416</heading>
+			<tilt>49.22522866471915</tilt>
+			<range>92.88251847285409</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>2.0</gx:duration>
+      	</gx:Wait>
+
+
+	<!-- Pivot to Silicon Valley Reset view -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<Camera>
+			<longitude>-122.0440723282845</longitude>
+			<latitude>37.38588475044155</latitude>
+			<altitude>21774.00555376502</altitude>
+			<heading>45.26068845788524</heading>
+			<tilt>1.377796823899814</tilt>
+			<roll>30.0847115774105</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>2.0</gx:duration>
+      	</gx:Wait>
+
+
+	<!-- Fairchild Semiconductor -->
+
+	<!-- Approach Setup -->
+
+			<!-- Audio cue VO 1_1-2  through next 17 sec -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<LookAt>
+			<longitude>-122.1034505286077</longitude>
+			<latitude>37.4215725378108</latitude>
+			<altitude>0</altitude>
+			<heading>-174.4164255183656</heading>
+			<tilt>63.78609194068733</tilt>
+			<range>205.5184824556984</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+	<gx:FlyTo>
+		<gx:duration>3.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option enabled="0" name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-122.1029929999998</longitude>
+			<latitude>37.42194699999992</latitude>
+			<altitude>2.500000000936899</altitude>
+			<heading>-125.9828483258885</heading>
+			<tilt>92.50801510117181</tilt>
+			<roll>3.181964810199244e-12</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>6.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>3.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<LookAt>
+			<gx:ViewerOptions>
+				<gx:option enabled="0" name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-122.1022783149676</longitude>
+			<latitude>37.41941691420548</latitude>
+			<altitude>0</altitude>
+			<heading>159.9224259594555</heading>
+			<tilt>88.8561785030751</tilt>
+			<range>303.6071079874831</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>6.0</gx:duration>
+      	</gx:Wait>
+
+	<!-- Pivot to Silicon Valley Reset view -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<Camera>
+			<longitude>-122.0440723282845</longitude>
+			<latitude>37.38588475044155</latitude>
+			<altitude>21774.00555376502</altitude>
+			<heading>45.26068845788524</heading>
+			<tilt>1.377796823899814</tilt>
+			<roll>30.0847115774105</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>2.0</gx:duration>
+      	</gx:Wait>
+
+
+	<!-- Intel -->
+
+	<!-- Approach Setup -->
+			<!-- Audio cue VO 1_1-2  through next 16 sec -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<LookAt>
+			<longitude>-121.9640923591746</longitude>
+			<latitude>37.38798307010786</latitude>
+			<altitude>0</altitude>
+			<heading>153.0267411826478</heading>
+			<tilt>31.21979710987071</tilt>
+			<range>936.6732835790325</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+	<gx:FlyTo>
+		<gx:duration>3.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option enabled="0" name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-121.963227</longitude>
+			<latitude>37.3886170000001</latitude>
+			<altitude>2.499999999529296</altitude>
+			<heading>-162.8246378110789</heading>
+			<tilt>97.55743418148673</tilt>
+			<roll>-1.851853891701291e-12</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>6.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>3.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option enabled="0" name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-121.963527</longitude>
+			<latitude>37.38866800000004</latitude>
+			<altitude>2.49999999991495</altitude>
+			<heading>-175.2575063787975</heading>
+			<tilt>99.62181607395016</tilt>
+			<roll>-4.42424318922347e-12</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>5.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>3.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<LookAt>
+			<longitude>-121.9640923591746</longitude>
+			<latitude>37.38798307010786</latitude>
+			<altitude>0</altitude>
+			<heading>153.0267411826478</heading>
+			<tilt>31.21979710987071</tilt>
+			<range>936.6732835790325</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+
+	<!-- Pivot to Silicon Valley Reset view -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<Camera>
+			<longitude>-122.0440723282845</longitude>
+			<latitude>37.38588475044155</latitude>
+			<altitude>21774.00555376502</altitude>
+			<heading>45.26068845788524</heading>
+			<tilt>1.377796823899814</tilt>
+			<roll>30.0847115774105</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>2.0</gx:duration>
+      	</gx:Wait>
+
+
+	<!-- Xerox PARC -->
+
+	<!-- Approach Setup -->
+
+			<!-- Audio cue VO 1_1-2  through next 21 sec -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<LookAt>
+			<longitude>-122.147855260386</longitude>
+			<latitude>37.40274989843974</latitude>
+			<altitude>0</altitude>
+			<heading>-95.42727959585339</heading>
+			<tilt>70.2843344437581</tilt>
+			<range>276.7052249746843</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>3.0</gx:duration>
+      	</gx:Wait>
+		<!-- Rotate Around Site -->
+	<gx:FlyTo>
+		<gx:duration>8.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<LookAt>
+			<longitude>-122.147836124783</longitude>
+			<latitude>37.4022117651186</latitude>
+			<altitude>0</altitude>
+			<heading>-35.03410646283032</heading>
+			<tilt>52.35095702417272</tilt>
+			<range>360.4419226341055</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>4.0</gx:duration>
+      	</gx:Wait>
+
+	<!-- Pivot to Silicon Valley Reset view -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<Camera>
+			<longitude>-122.0440723282845</longitude>
+			<latitude>37.38588475044155</latitude>
+			<altitude>21774.00555376502</altitude>
+			<heading>45.26068845788524</heading>
+			<tilt>1.377796823899814</tilt>
+			<roll>30.0847115774105</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>2.0</gx:duration>
+      	</gx:Wait>
+
+
+	<!-- Atari -->
+
+	<!-- Approach Setup -->
+
+			<!-- Audio cue VO 1_1-2  through next 18 sec -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<LookAt>
+			<longitude>-122.018613058754</longitude>
+			<latitude>37.40738570376059</latitude>
+			<altitude>0</altitude>
+			<heading>104.883929308304</heading>
+			<tilt>40.13199820416121</tilt>
+			<range>440.4229029011182</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+	<gx:FlyTo>
+		<gx:duration>3.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<LookAt>
+			<gx:ViewerOptions>
+				<gx:option enabled="0" name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-122.0183145279032</longitude>
+			<latitude>37.40743834362119</latitude>
+			<altitude>0</altitude>
+			<heading>116.6352494007141</heading>
+			<tilt>88.09531057754026</tilt>
+			<range>93.57996372923378</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>4.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>3.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option enabled="0" name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-122.0193499999999</longitude>
+			<latitude>37.40754699999997</latitude>
+			<altitude>2.499999999127194</altitude>
+			<heading>77.06465860774338</heading>
+			<tilt>95.13128668259122</tilt>
+			<roll>-4.120588738440992e-14</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>4.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>3.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<LookAt>
+			<longitude>-122.018613058754</longitude>
+			<latitude>37.40738570376059</latitude>
+			<altitude>0</altitude>
+			<heading>104.883929308304</heading>
+			<tilt>40.13199820416121</tilt>
+			<range>440.4229029011182</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+
+	<!-- Pivot to Silicon Valley Reset view -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<Camera>
+			<longitude>-122.0440723282845</longitude>
+			<latitude>37.38588475044155</latitude>
+			<altitude>21774.00555376502</altitude>
+			<heading>45.26068845788524</heading>
+			<tilt>1.377796823899814</tilt>
+			<roll>30.0847115774105</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>2.0</gx:duration>
+      	</gx:Wait>
+
+
+	<!-- Andy Capp's Tavern -->
+
+	<!-- Approach Setup -->
+
+			<!-- Audio cue VO 1_1-2  through next 18 sec -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<LookAt>
+			<longitude>-122.033560398397</longitude>
+			<latitude>37.36856828893351</latitude>
+			<altitude>0</altitude>
+			<heading>14.85019116070739</heading>
+			<tilt>31.2161554654935</tilt>
+			<range>280.4654841762819</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+	<gx:FlyTo>
+		<gx:duration>3.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<LookAt>
+			<gx:ViewerOptions>
+				<gx:option enabled="0" name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-122.033657125481</longitude>
+			<latitude>37.3686938362759</latitude>
+			<altitude>0</altitude>
+			<heading>55.18999544094262</heading>
+			<tilt>84.37247074309494</tilt>
+			<range>27.59676813756318</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>4.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>3.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<LookAt>
+			<gx:ViewerOptions>
+				<gx:option enabled="0" name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-122.0336280342034</longitude>
+			<latitude>37.36886290464646</latitude>
+			<altitude>0</altitude>
+			<heading>2.537605504093676</heading>
+			<tilt>86.37954568527309</tilt>
+			<range>43.98034085002792</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>4.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>3.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option enabled="0" name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-122.0335319999999</longitude>
+			<latitude>37.36842699999994</latitude>
+			<altitude>2.500000000246866</altitude>
+			<heading>-10.24449402011784</heading>
+			<tilt>91.41191361296197</tilt>
+			<roll>4.871156159120345e-14</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>4.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>3.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<LookAt>
+			<longitude>-122.033560398397</longitude>
+			<latitude>37.36856828893351</latitude>
+			<altitude>0</altitude>
+			<heading>14.85019116070739</heading>
+			<tilt>31.2161554654935</tilt>
+			<range>280.4654841762819</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+
+	<!-- Pivot to Silicon Valley Reset view -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<Camera>
+			<longitude>-122.0440723282845</longitude>
+			<latitude>37.38588475044155</latitude>
+			<altitude>21774.00555376502</altitude>
+			<heading>45.26068845788524</heading>
+			<tilt>1.377796823899814</tilt>
+			<roll>30.0847115774105</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>2.0</gx:duration>
+      	</gx:Wait>
+
+
+	<!-- Homebrew Computer Club -->
+
+	<!-- Approach Setup -->
+
+			<!-- Audio cue VO 1_1-2  through next 18 sec -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<LookAt>
+			<longitude>-122.1903731592006</longitude>
+			<latitude>37.47204767397992</latitude>
+			<altitude>0</altitude>
+			<heading>116.2829312796589</heading>
+			<tilt>29.79059374722922</tilt>
+			<range>276.5842785422212</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+	<gx:FlyTo>
+		<gx:duration>3.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<LookAt>
+			<gx:ViewerOptions>
+				<gx:option enabled="0" name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-122.1901001895609</longitude>
+			<latitude>37.47220895360928</latitude>
+			<altitude>0</altitude>
+			<heading>96.39413136378741</heading>
+			<tilt>85.80555472209861</tilt>
+			<range>34.12388042417668</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>5.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>3.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<LookAt>
+			<gx:ViewerOptions>
+				<gx:option enabled="0" name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-122.1902801928893</longitude>
+			<latitude>37.47220185146814</latitude>
+			<altitude>0</altitude>
+			<heading>133.6952720768135</heading>
+			<tilt>82.79598615827645</tilt>
+			<range>19.19002692127693</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>5.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>3.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<LookAt>
+			<longitude>-122.1903731592006</longitude>
+			<latitude>37.47204767397992</latitude>
+			<altitude>0</altitude>
+			<heading>116.2829312796589</heading>
+			<tilt>29.79059374722922</tilt>
+			<range>276.5842785422212</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+
+	<!-- Pivot to Silicon Valley Reset view -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<Camera>
+			<longitude>-122.0440723282845</longitude>
+			<latitude>37.38588475044155</latitude>
+			<altitude>21774.00555376502</altitude>
+			<heading>45.26068845788524</heading>
+			<tilt>1.377796823899814</tilt>
+			<roll>30.0847115774105</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>2.0</gx:duration>
+      	</gx:Wait>
+
+	<!-- Apple Garage -->
+
+	<!-- Approach Setup -->
+			<!-- Audio cue VO 1_1-2  through next 21 sec -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<LookAt>
+			<longitude>-122.0686928877172</longitude>
+			<latitude>37.34031037543195</latitude>
+			<altitude>0</altitude>
+			<heading>-43.38996185144771</heading>
+			<tilt>52.41354255858625</tilt>
+			<range>121.0447993094876</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+	<gx:FlyTo>
+		<gx:duration>3.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<LookAt>
+			<gx:ViewerOptions>
+				<gx:option enabled="0" name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-122.0688512099988</longitude>
+			<latitude>37.34028188780876</latitude>
+			<altitude>0</altitude>
+			<heading>-46.38216041240869</heading>
+			<tilt>80.38271986693763</tilt>
+			<range>16.02138719504292</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>7.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<LookAt>
+			<gx:ViewerOptions>
+				<gx:option enabled="0" name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-122.0692567645659</longitude>
+			<latitude>37.34074589110293</latitude>
+			<altitude>0</altitude>
+			<heading>-29.63797780815609</heading>
+			<tilt>87.38237408799129</tilt>
+			<range>80.75911870427879</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>6.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>3.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<LookAt>
+			<gx:ViewerOptions>
+				<gx:option enabled="0" name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-122.0688512099988</longitude>
+			<latitude>37.34028188780876</latitude>
+			<altitude>0</altitude>
+			<heading>-46.38216041240869</heading>
+			<tilt>80.38271986693763</tilt>
+			<range>16.02138719504292</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+
+	<!-- Pivot to Silicon Valley Reset view -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<Camera>
+			<longitude>-122.0440723282845</longitude>
+			<latitude>37.38588475044155</latitude>
+			<altitude>21774.00555376502</altitude>
+			<heading>45.26068845788524</heading>
+			<tilt>1.377796823899814</tilt>
+			<roll>30.0847115774105</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>2.0</gx:duration>
+      	</gx:Wait>
+
+	<!-- Stanford Research International -->
+
+	<!-- Approach Setup -->
+
+			<!-- Audio cue VO 1_1-2  through next 17 sec -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<LookAt>
+			<longitude>-122.1775066805042</longitude>
+			<latitude>37.45629130057512</latitude>
+			<altitude>0</altitude>
+			<heading>70.49562922500358</heading>
+			<tilt>59.57833300581392</tilt>
+			<range>161.2234352956127</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>4.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<LookAt>
+			<longitude>-122.1775867493776</longitude>
+			<latitude>37.4563793680334</latitude>
+			<altitude>0</altitude>
+			<heading>122.0776696738282</heading>
+			<tilt>53.89188339739667</tilt>
+			<range>164.4883725321147</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<LookAt>
+			<longitude>-122.17735797518</longitude>
+			<latitude>37.45611971884547</latitude>
+			<altitude>0</altitude>
+			<heading>32.66885568833452</heading>
+			<tilt>48.57080994486887</tilt>
+			<range>166.9005208762475</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>4.0</gx:duration>
+      	</gx:Wait>
+
+	<!-- Pivot to Silicon Valley Reset view -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<Camera>
+			<longitude>-122.0440723282845</longitude>
+			<latitude>37.38588475044155</latitude>
+			<altitude>21774.00555376502</altitude>
+			<heading>45.26068845788524</heading>
+			<tilt>1.377796823899814</tilt>
+			<roll>30.0847115774105</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>2.0</gx:duration>
+      	</gx:Wait>
+
+	<!-- Silicon Graphics -->
+
+	<!-- Approach Setup -->
+
+			<!-- Audio cue VO 1_1-2  through next 18 sec -->
+	<gx:FlyTo>
+		<gx:duration>6.0</gx:duration>
+		<LookAt>
+			<longitude>-122.0771643597404</longitude>
+			<latitude>37.41416582341796</latitude>
+			<altitude>0</altitude>
+			<heading>52.26235323587034</heading>
+			<tilt>55.82468625274947</tilt>
+			<range>545.6011914380739</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+	<gx:FlyTo>
+		<gx:duration>2.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<LookAt>
+			<longitude>-122.0775367690793</longitude>
+			<latitude>37.41396962490595</latitude>
+			<altitude>0</altitude>
+			<heading>54.59062060615017</heading>
+			<tilt>47.71003372470629</tilt>
+			<range>136.2719786082627</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+	<gx:FlyTo>
+		<gx:duration>3.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option enabled="0" name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-122.0780430000001</longitude>
+			<latitude>37.41369199999977</latitude>
+			<altitude>2.500000000514438</altitude>
+			<heading>49.90106167806001</heading>
+			<tilt>93.75105417783931</tilt>
+			<roll>1.594043378379487e-13</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>9.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>3.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<LookAt>
+			<longitude>-122.0775367690793</longitude>
+			<latitude>37.41396962490595</latitude>
+			<altitude>0</altitude>
+			<heading>54.59062060615017</heading>
+			<tilt>47.71003372470629</tilt>
+			<range>136.2719786082627</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<LookAt>
+			<longitude>-122.0773845023282</longitude>
+			<latitude>37.41425691595395</latitude>
+			<altitude>0</altitude>
+			<heading>-65.91550624695321</heading>
+			<tilt>51.45078675961962</tilt>
+			<range>175.7839261595152</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>4.0</gx:duration>
+      	</gx:Wait>
+
+
+	<!-- Pivot to Silicon Valley Reset view -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<Camera>
+			<longitude>-122.0440723282845</longitude>
+			<latitude>37.38588475044155</latitude>
+			<altitude>21774.00555376502</altitude>
+			<heading>45.26068845788524</heading>
+			<tilt>1.377796823899814</tilt>
+			<roll>30.0847115774105</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>2.0</gx:duration>
+      	</gx:Wait>
+
+	<!-- Adobe Systems -->
+
+	<!-- Approach Setup -->
+
+			<!-- Audio cue VO 1_1-2  through next 20 sec -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<Camera>
+			<longitude>-121.8937490633909</longitude>
+			<latitude>37.32718123986444</latitude>
+			<altitude>286.994034799979</altitude>
+			<heading>-3.645751358668027</heading>
+			<tilt>57.14284899920645</tilt>
+			<roll>-6.257849918047463</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option enabled="0" name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-121.893885</longitude>
+			<latitude>37.33022400000021</latitude>
+			<altitude>2.500000000616672</altitude>
+			<heading>-10.78111464771801</heading>
+			<tilt>108.6395365426515</tilt>
+			<roll>-5.545253340741568</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>8.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>6.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option enabled="0" name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-121.8926127389082</longitude>
+			<latitude>37.33084299917223</latitude>
+			<altitude>2.500000000033278</altitude>
+			<heading>-80.96906784791983</heading>
+			<tilt>105.5894095774041</tilt>
+			<roll>4.654170046109753e-08</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>8.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<LookAt>
+			<longitude>-121.8937285379029</longitude>
+			<latitude>37.3303885470995</latitude>
+			<altitude>0</altitude>
+			<heading>-96.36747995632201</heading>
+			<tilt>51.86039626037955</tilt>
+			<range>483.4267449685351</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<LookAt>
+			<longitude>-121.8941593116109</longitude>
+			<latitude>37.33071304043138</latitude>
+			<altitude>0</altitude>
+			<heading>-7.5976875220603</heading>
+			<tilt>49.10718512674993</tilt>
+			<range>482.5861861554061</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+
+	<!-- Pivot to Silicon Valley Reset view -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<LookAt>
+			<longitude>-121.8940442449562</longitude>
+			<latitude>37.33162935093436</latitude>
+			<altitude>0</altitude>
+			<heading>3.65364480055955</heading>
+			<tilt>39.24795253659105</tilt>
+			<range>1461.613339353667</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>3.0</gx:duration>
+      	</gx:Wait>
+
+	<!-- Cisco Systems -->
+
+	<!-- Approach Setup -->
+
+			<!-- Audio cue VO 1_1-2  through next 17 sec -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<LookAt>
+			<longitude>-121.9323488682346</longitude>
+			<latitude>37.41128092744658</latitude>
+			<altitude>0</altitude>
+			<heading>-0.6444739213788516</heading>
+			<tilt>49.95139103747964</tilt>
+			<range>546.3666763139147</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+	<gx:FlyTo>
+		<gx:duration>6.0</gx:duration>
+		<LookAt>
+			<longitude>-121.9323771512603</longitude>
+			<latitude>37.41300936501736</latitude>
+			<altitude>0</altitude>
+			<heading>-179.8922849615855</heading>
+			<tilt>46.02502886419306</tilt>
+			<range>513.9543625194949</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>12.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option enabled="0" name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-121.932211</longitude>
+			<latitude>37.41330399999999</latitude>
+			<altitude>2.499999999868094</altitude>
+			<heading>-169.6474161025552</heading>
+			<tilt>91.95922619741879</tilt>
+			<roll>-1.703475890893807e-13</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>6.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<LookAt>
+			<longitude>-121.9323771512603</longitude>
+			<latitude>37.41300936501736</latitude>
+			<altitude>0</altitude>
+			<heading>-179.8922849615855</heading>
+			<tilt>46.02502886419306</tilt>
+			<range>513.9543625194949</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>3.0</gx:duration>
+      	</gx:Wait>
+
+	<!-- Pivot to Silicon Valley Reset view -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<Camera>
+			<longitude>-122.0440723282845</longitude>
+			<latitude>37.38588475044155</latitude>
+			<altitude>21774.00555376502</altitude>
+			<heading>45.26068845788524</heading>
+			<tilt>1.377796823899814</tilt>
+			<roll>30.0847115774105</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>2.0</gx:duration>
+      	</gx:Wait>
+
+	<!-- Stanford Jacks Hall -->
+
+	<!-- Approach Setup -->
+
+			<!-- Audio cue VO 1_1-2  through next 22 sec -->
+	
+
+	
+	<gx:FlyTo>
+		<gx:duration>6.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<LookAt>
+			<longitude>-122.1698729722946</longitude>
+			<latitude>37.4284683629825</latitude>
+			<altitude>0</altitude>
+			<heading>-164.6322729979018</heading>
+			<tilt>19.62889564674456</tilt>
+			<range>739.8098328406899</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>3.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option enabled="0" name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-122.1699569684461</longitude>
+			<latitude>37.42895597116059</latitude>
+			<altitude>2.499999999443124</altitude>
+			<heading>-130.1621826471676</heading>
+			<tilt>99.56484340340208</tilt>
+			<roll>6.684437165370784e-05</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>4.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option enabled="0" name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-122.170702</longitude>
+			<latitude>37.429096</latitude>
+			<altitude>2.500000000176096</altitude>
+			<heading>-171.3100123647753</heading>
+			<tilt>97.51437617508034</tilt>
+			<roll>-1.808699759273964e-12</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>8.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>6.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<LookAt>
+			<longitude>-122.1699419698318</longitude>
+			<latitude>37.4290542604101</latitude>
+			<altitude>0</altitude>
+			<heading>-165.2773547623988</heading>
+			<tilt>32.29123227693014</tilt>
+			<range>1372.113592454054</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>8.0</gx:duration>
+      	</gx:Wait>
+
+	<!-- Pivot to Silicon Valley Reset view -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<Camera>
+			<longitude>-122.0440723282845</longitude>
+			<latitude>37.38588475044155</latitude>
+			<altitude>21774.00555376502</altitude>
+			<heading>45.26068845788524</heading>
+			<tilt>1.377796823899814</tilt>
+			<roll>30.0847115774105</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>2.0</gx:duration>
+      	</gx:Wait>
+
+	<!-- Netscape -->
+
+	<!-- Approach Setup -->
+
+			<!-- Audio cue VO 1_1-2  through next 22 sec -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<LookAt>
+			<longitude>-122.0537849315716</longitude>
+			<latitude>37.39533643881904</latitude>
+			<altitude>0</altitude>
+			<heading>165.4926083688161</heading>
+			<tilt>33.57472004752783</tilt>
+			<range>252.7885748434474</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+	<gx:FlyTo>
+		<gx:duration>3.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option enabled="0" name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-122.0539189714377</longitude>
+			<latitude>37.39580284518157</latitude>
+			<altitude>2.500000000263357</altitude>
+			<heading>170.690585792678</heading>
+			<tilt>94.27459989982198</tilt>
+			<roll>7.012266590250674e-11</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>8.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>8.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option enabled="0" name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-122.053178</longitude>
+			<latitude>37.39547300000003</latitude>
+			<altitude>2.50000000045108</altitude>
+			<heading>-112.8541119055622</heading>
+			<tilt>93.99941944594649</tilt>
+			<roll>8.421957960883831e-13</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>8.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<LookAt>
+			<longitude>-122.0534679562795</longitude>
+			<latitude>37.39681810603107</latitude>
+			<altitude>0</altitude>
+			<heading>-126.8057712270667</heading>
+			<tilt>5.531335234315748</tilt>
+			<range>1025.767004668287</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+    	<gx:Wait>
+        	<gx:duration>4.0</gx:duration>
+      	</gx:Wait>
+
+	<!-- Pivot to Silicon Valley Reset view -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<Camera>
+			<longitude>-122.0440723282845</longitude>
+			<latitude>37.38588475044155</latitude>
+			<altitude>21774.00555376502</altitude>
+			<heading>45.26068845788524</heading>
+			<tilt>1.377796823899814</tilt>
+			<roll>30.0847115774105</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>2.0</gx:duration>
+      	</gx:Wait>
+
+	<!-- eBay -->
+
+	<!-- Approach Setup -->
+
+			<!-- Audio cue VO 1_1-2  through next 27 sec -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<LookAt>
+			<longitude>-121.9278390000996</longitude>
+			<latitude>37.29547299979683</latitude>
+			<altitude>0</altitude>
+			<heading>-6.032216558484952e-11</heading>
+			<tilt>0</tilt>
+			<range>1053.507905248182</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+	<gx:FlyTo>
+		<gx:duration>3.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<LookAt>
+			<gx:ViewerOptions>
+				<gx:option enabled="0" name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-121.9278911331866</longitude>
+			<latitude>37.29522699242955</latitude>
+			<altitude>0</altitude>
+			<heading>15.98755311835905</heading>
+			<tilt>83.37343492493932</tilt>
+			<range>22.61525555508987</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>8</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>8</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<LookAt>
+			<gx:ViewerOptions>
+				<gx:option enabled="0" name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-121.9277984805761</longitude>
+			<latitude>37.29543623114689</latitude>
+			<altitude>0</altitude>
+			<heading>84.06471215754412</heading>
+			<tilt>87.15734957591953</tilt>
+			<range>56.29671498121812</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>8.0</gx:duration>
+      	</gx:Wait>
+
+	<!-- Pivot to Silicon Valley Reset view -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<Camera>
+			<longitude>-122.0440723282845</longitude>
+			<latitude>37.38588475044155</latitude>
+			<altitude>21774.00555376502</altitude>
+			<heading>45.26068845788524</heading>
+			<tilt>1.377796823899814</tilt>
+			<roll>30.0847115774105</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>2.0</gx:duration>
+      	</gx:Wait>
+	
+	<!-- Google Garage -->
+
+	<!-- Approach Setup -->
+
+			<!-- Audio cue VO 1_1-2  through next 22 sec -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<LookAt>
+			<longitude>-122.1626407580009</longitude>
+			<latitude>37.45905681672208</latitude>
+			<altitude>0</altitude>
+			<heading>-115.6294600931036</heading>
+			<tilt>16.09992413347108</tilt>
+			<range>696.7267383966787</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+	<gx:FlyTo>
+		<gx:duration>3.0</gx:duration>
+		<LookAt>
+			<longitude>-122.1636166843167</longitude>
+			<latitude>37.45778614611141</latitude>
+			<altitude>0</altitude>
+			<heading>-120.9598854963604</heading>
+			<tilt>35.32023646926709</tilt>
+			<range>92.64877416822479</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>4.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>6</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<LookAt>
+			<longitude>-122.16372592911</longitude>
+			<latitude>37.45763323019158</latitude>
+			<altitude>0</altitude>
+			<heading>111.8042284407618</heading>
+			<tilt>33.71113295386955</tilt>
+			<range>92.15674710833291</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>4.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>6</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<LookAt>
+			<longitude>-122.1636783559065</longitude>
+			<latitude>37.45761633669676</latitude>
+			<altitude>0</altitude>
+			<heading>21.96545210074222</heading>
+			<tilt>15.51531639282911</tilt>
+			<range>93.01619450420353</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>4.0</gx:duration>
+      	</gx:Wait>
+
+
+	<!-- Pivot to Silicon Valley Reset view -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<Camera>
+			<longitude>-122.0440723282845</longitude>
+			<latitude>37.38588475044155</latitude>
+			<altitude>21774.00555376502</altitude>
+			<heading>45.26068845788524</heading>
+			<tilt>1.377796823899814</tilt>
+			<roll>30.0847115774105</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>2.0</gx:duration>
+      	</gx:Wait>
+
+	<!-- Facebook House -->
+
+	<!-- Approach Setup -->
+
+			<!-- Audio cue VO 1_1-2  through next 16 sec -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<LookAt>
+			<longitude>-122.1350343398541</longitude>
+			<latitude>37.41165585058455</latitude>
+			<altitude>0</altitude>
+			<heading>124.2269521245937</heading>
+			<tilt>24.98881377810668</tilt>
+			<range>153.8739494719051</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+	<gx:FlyTo>
+		<gx:duration>3.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<Camera>
+			<gx:ViewerOptions>
+				<gx:option enabled="0" name="historicalimagery"></gx:option>
+				<gx:option enabled="0" name="sunlight"></gx:option>
+				<gx:option name="streetview"></gx:option>
+			</gx:ViewerOptions>
+			<longitude>-122.1353580000001</longitude>
+			<latitude>37.41181400000014</latitude>
+			<altitude>2.500000000172339</altitude>
+			<heading>99.89022253112036</heading>
+			<tilt>95.71503493674221</tilt>
+			<roll>-1.132622233758866e-13</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>4</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<LookAt>
+			<longitude>-122.1348682457949</longitude>
+			<latitude>37.41194486544412</latitude>
+			<altitude>0</altitude>
+			<heading>123.7699051155694</heading>
+			<tilt>11.2275177834475</tilt>
+			<range>112.5502341166078</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>4.0</gx:duration>
+      	</gx:Wait>
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<gx:flyToMode>smooth</gx:flyToMode>
+		<LookAt>
+			<longitude>-122.1347047552498</longitude>
+			<latitude>37.41199024303166</latitude>
+			<altitude>0</altitude>
+			<heading>-115.0120933405211</heading>
+			<tilt>8.724690580319949</tilt>
+			<range>110.1628808011289</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>4.0</gx:duration>
+      	</gx:Wait>
+
+	
+	<!-- Pivot to Silicon Valley Reset view -->
+	<gx:FlyTo>
+		<gx:duration>4.0</gx:duration>
+		<Camera>
+			<longitude>-122.0440723282845</longitude>
+			<latitude>37.38588475044155</latitude>
+			<altitude>21774.00555376502</altitude>
+			<heading>45.26068845788524</heading>
+			<tilt>1.377796823899814</tilt>
+			<roll>30.0847115774105</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>2.0</gx:duration>
+      	</gx:Wait>
+
+	<!-- Return to California Region -->
+	<gx:FlyTo>
+		<gx:duration>7.0</gx:duration>		
+		<Camera>
+			<longitude>-121.760021724721</longitude>
+			<latitude>37.70480639915292</latitude>
+			<altitude>782816.7123947259</altitude>
+			<heading>26.65173482795031</heading>
+			<tilt>1.046818084127447</tilt>
+			<roll>29.32632663107285</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+	</gx:FlyTo>
+      	<gx:Wait>
+        	<gx:duration>8.0</gx:duration>
+      	</gx:Wait>
+        <gx:AnimatedUpdate id="return_Update">
+        	<gx:duration/>
+        	<Update>
+		<targetHref/>
+		<Change>
+              		<ScreenOverlay targetId="tour_Play">
+                	<gx:balloonVisibility>1</gx:balloonVisibility>
+              	</ScreenOverlay>
+            	</Change>
+         	</Update>
+        </gx:AnimatedUpdate>
+	</gx:Playlist>
+  </gx:Tour>
+
+</Document>
+</kml>
