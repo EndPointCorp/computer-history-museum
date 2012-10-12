@@ -7,3 +7,4 @@
     constraints:
         latitude: '[37.4125, 37.4205]'
         longitude: '[-122.0406, -122.0306]'
+        altitude: '[0,1000]'
