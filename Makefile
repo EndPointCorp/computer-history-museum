@@ -1,6 +1,6 @@
 SHELL = /bin/sh
 
 compile:
-	zip lg-chm-master.kmz master/doc.kml master/images/* master/audio/* master/actions.yml master/queries.txt
-	zip lg-chm-center.kmz center/doc.kml center/images/*
-	zip lg-chm-slave.kmz  slave/doc.kml
+	cd master; zip ../lg-chm-master.kmz doc.kml images/* audio/* actions.yml queries.txt; cd ..
+	cd center; zip ../lg-chm-center.kmz doc.kml images/*; cd ..
+	cd slave; zip ../lg-chm-slave.kmz  doc.kml; cd ..
