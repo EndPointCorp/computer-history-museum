@@ -2,8 +2,8 @@
     -
         name: 1 Lockheed
         input: ALL
-        action: unzip -p /media/kml/lg-chm-master.kmz audio/1.mp3 | mplayer -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
-        exit_action: killall mplayer
+        action: unzip -p /media/kml/lg-chm-master.kmz audio/1.mp3 | mplayer -name 01 -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
+        exit_action: pkill -f 'mplayer -name 01'
         repeat: DEFAULT
         constraints:
             latitude: '[37.4125, 37.4205]'
@@ -12,8 +12,8 @@
     -
         name: 2 HP
         input: ALL
-        action: unzip -p /media/kml/lg-chm-master.kmz audio/2.mp3 | mplayer -really-quiet -cache 1024 -nomouseinput - nograbpointer -noconsolecontrols -vo null -
-        exit_action: killall mplayer
+        action: unzip -p /media/kml/lg-chm-master.kmz audio/2.mp3 | mplayer -name 02 -really-quiet -cache 1024 -nomouseinput - nograbpointer -noconsolecontrols -vo null -
+        exit_action: pkill -f 'mplayer -name 02'
         repeat: DEFAULT
         constraints:
             latitude: '[37.4391, 37.4471]'
@@ -22,8 +22,8 @@
     -
         name: 3 IBM
         input: ALL
-        action: unzip -p /media/kml/lg-chm-master.kmz audio/3.mp3 | mplayer -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
-        exit_action: killall mplayer
+        action: unzip -p /media/kml/lg-chm-master.kmz audio/3.mp3 | mplayer -name 03 -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
+        exit_action: pkill -f 'mplayer -name 03'
         repeat: DEFAULT
         constraints:
             latitude: '[37.3320, 37.3400]'
@@ -32,58 +32,58 @@
     -
         name: 4 Shockley
         input: ALL
-        action: unzip -p /media/kml/lg-chm-master.kmz audio/4.mp3 | mplayer -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
-        exit_action: killall mplayer
+        action: unzip -p /media/kml/lg-chm-master.kmz audio/4.mp3 | mplayer -name 04 -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
+        exit_action: pkill -f 'mplayer -name 04'
         repeat: DEFAULT
         constraints:
-            latitude: '[37.4176, 37.4256]'
-            longitude: '[-122.1083, -122.0983]'
+            latitude: '[37.4035, 37.4060]'
+            longitude: '[-122.1120, -122.1095]'
             altitude: '[0,1000]'
     -
         name: 5 Fairchild
         input: ALL
-        action: unzip -p /media/kml/lg-chm-master.kmz audio/5.mp3 | mplayer -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
-        exit_action: killall mplayer
+        action: unzip -p /media/kml/lg-chm-master.kmz audio/5.mp3 | mplayer -name 05 -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
+        exit_action: pkill -f 'mplayer -name 05'
+        repeat: DEFAULT
+        constraints:
+            latitude: '[37.4200, 37.4228]'
+            longitude: '[-122.1048, -122.1020]'
+            altitude: '[0,1000]'
+    -
+        name: 6 Intel
+        input: ALL
+        action: unzip -p /media/kml/lg-chm-master.kmz audio/6.mp3 | mplayer -name 06 -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
+        exit_action: pkill -f 'mplayer -name 06'
         repeat: DEFAULT
         constraints:
             latitude: '[37.3837, 37.3917]'
             longitude: '[-121.9689, -121.9589]'
             altitude: '[0,1000]'
     -
-        name: 6 Intel
+        name: 7 Xerox
         input: ALL
-        action: unzip -p /media/kml/lg-chm-master.kmz audio/6.mp3 | mplayer -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
-        exit_action: killall mplayer
+        action: unzip -p /media/kml/lg-chm-master.kmz audio/7.mp3 | mplayer -name 07 -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
+        exit_action: pkill -f 'mplayer -name 07'
         repeat: DEFAULT
         constraints:
             latitude: '[37.3988, 37.4068]'
             longitude: '[-122.1525, -122.1425]'
             altitude: '[0,1000]'
     -
-        name: 7 Xerox
+        name: 8 Atari
         input: ALL
-        action: unzip -p /media/kml/lg-chm-master.kmz audio/7.mp3 | mplayer -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
-        exit_action: killall mplayer
+        action: unzip -p /media/kml/lg-chm-master.kmz audio/8.mp3 | mplayer -name 08 -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
+        exit_action: pkill -f 'mplayer -name 08'
         repeat: DEFAULT
         constraints:
             latitude: '[37.4036, 37.4116]'
             longitude: '[-122.0243, -122.0143]'
             altitude: '[0,1000]'
     -
-        name: 8 Atari
-        input: ALL
-        action: unzip -p /media/kml/lg-chm-master.kmz audio/8.mp3 | mplayer -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
-        exit_action: killall mplayer
-        repeat: DEFAULT
-        constraints:
-            latitude: '[37.3647, 37.3727]'
-            longitude: '[-122.0386, -122.0286]'
-            altitude: '[0,1000]'
-    -
         name: 9 Andy
         input: ALL
-        action: unzip -p /media/kml/lg-chm-master.kmz audio/9.mp3 | mplayer -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
-        exit_action: killall mplayer
+        action: unzip -p /media/kml/lg-chm-master.kmz audio/9.mp3 | mplayer -name 09 -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
+        exit_action: pkill -f 'mplayer -name 09'
         repeat: DEFAULT
         constraints:
             latitude: '[37.3647, 37.3727]'
@@ -92,8 +92,8 @@
     -
         name: 10 Homebrew
         input: ALL
-        action: unzip -p /media/kml/lg-chm-master.kmz audio/10.mp3 | mplayer -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
-        exit_action: killall mplayer
+        action: unzip -p /media/kml/lg-chm-master.kmz audio/10.mp3 | mplayer -name 10 -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
+        exit_action: pkill -f 'mplayer -name 10'
         repeat: DEFAULT
         constraints:
             latitude: '[37.4682, 37.4762]'
@@ -102,8 +102,8 @@
     -
         name: 11 Apple
         input: ALL
-        action: unzip -p /media/kml/lg-chm-master.kmz audio/11.mp3 | mplayer -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
-        exit_action: killall mplayer
+        action: unzip -p /media/kml/lg-chm-master.kmz audio/11.mp3 | mplayer -name 11 -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
+        exit_action: pkill -f 'mplayer -name 11'
         repeat: DEFAULT
         constraints:
             latitude: '[37.3362, 37.3442]'
@@ -112,8 +112,8 @@
     -
         name: 12 SRI
         input: ALL
-        action: unzip -p /media/kml/lg-chm-master.kmz audio/12.mp3 | mplayer -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
-        exit_action: killall mplayer
+        action: unzip -p /media/kml/lg-chm-master.kmz audio/12.mp3 | mplayer -name 12 -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
+        exit_action: pkill -f 'mplayer -name 12'
         repeat: DEFAULT
         constraints:
             latitude: '[37.4528, 37.4608]'
@@ -122,48 +122,48 @@
     -
         name: 13 Silicon Graphics
         input: ALL
-        action: unzip -p /media/kml/lg-chm-master.kmz audio/13.mp3 | mplayer -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
-        exit_action: killall mplayer
+        action: unzip -p /media/kml/lg-chm-master.kmz audio/13.mp3 | mplayer -name 13 -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
+        exit_action: pkill -f 'mplayer -name 13'
         repeat: DEFAULT
         constraints:
             latitude: '[37.4103, 37.4183]'
             longitude: '[-122.0819, -122.0719]'
             altitude: '[0,1000]'
     -
-        name: 14 Silicon
+        name: 14 Adobe Systems
         input: ALL
-        action: unzip -p /media/kml/lg-chm-master.kmz audio/14.mp3 | mplayer -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
-        exit_action: killall mplayer
+        action: unzip -p /media/kml/lg-chm-master.kmz audio/14.mp3 | mplayer -name 14 -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
+        exit_action: pkill -f 'mplayer -name 14'
         repeat: DEFAULT
         constraints:
             latitude: '[37.3268, 37.3348]'
             longitude: '[-121.8988, -121.8888]'
             altitude: '[0,1000]'
     -
-        name: 15 Adobe
+        name: 15 Cisco Systems
         input: ALL
-        action: unzip -p /media/kml/lg-chm-master.kmz audio/15.mp3 | mplayer -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
-        exit_action: killall mplayer
+        action: unzip -p /media/kml/lg-chm-master.kmz audio/15.mp3 | mplayer -name 15 -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
+        exit_action: pkill -f 'mplayer -name 15'
         repeat: DEFAULT
         constraints:
             latitude: '[37.4079, 37.4159]'
             longitude: '[-121.9373, -121.9273]'
             altitude: '[0,1000]'
     -
-        name: 16 Cisco
+        name: 16 Stanford Jacks Hall
         input: ALL
-        action: unzip -p /media/kml/lg-chm-master.kmz audio/16.mp3 | mplayer -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
-        exit_action: killall mplayer
+        action: unzip -p /media/kml/lg-chm-master.kmz audio/16.mp3 | mplayer -name 16 -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
+        exit_action: pkill -f 'mplayer -name 16'
         repeat: DEFAULT
         constraints:
             latitude: '[37.4246, 37.4326]'
             longitude: '[-122.1754, -122.1654]'
             altitude: '[0,1000]'
     -
-        name: 17 Stanford
+        name: 17 Netscape
         input: ALL
-        action: unzip -p /media/kml/lg-chm-master.kmz audio/17.mp3 | mplayer -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
-        exit_action: killall mplayer
+        action: unzip -p /media/kml/lg-chm-master.kmz audio/17.mp3 | mplayer -name 17 -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
+        exit_action: pkill -f 'mplayer -name 17'
         repeat: DEFAULT
         constraints:
             latitude: '[37.3918, 37.3998]'
@@ -172,8 +172,8 @@
     -
         name: 18 eBay
         input: ALL
-        action: unzip -p /media/kml/lg-chm-master.kmz audio/18.mp3 | mplayer -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
-        exit_action: killall mplayer
+        action: unzip -p /media/kml/lg-chm-master.kmz audio/18.mp3 | mplayer -name 18 -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
+        exit_action: pkill -f 'mplayer -name 18'
         repeat: DEFAULT
         constraints:
             latitude: '[37.2915, 37.2995]'
@@ -182,8 +182,8 @@
     -
         name: 19 Google
         input: ALL
-        action: unzip -p /media/kml/lg-chm-master.kmz audio/19.mp3 | mplayer -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
-        exit_action: killall mplayer
+        action: unzip -p /media/kml/lg-chm-master.kmz audio/19.mp3 | mplayer -name 19 -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
+        exit_action: pkill -f 'mplayer -name 19'
         repeat: DEFAULT
         constraints:
             latitude: '[37.4537, 37.4617]'
@@ -191,8 +191,8 @@
     -
         name: 20 Facebook
         input: ALL
-        action: unzip -p /media/kml/lg-chm-master.kmz audio/20.mp3 | mplayer -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
-        exit_action: killall mplayer
+        action: unzip -p /media/kml/lg-chm-master.kmz audio/20.mp3 | mplayer -name 20 -really-quiet -cache 1024 -nomouseinput -nograbpointer -noconsolecontrols -vo null -
+        exit_action: pkill -f 'mplayer -name 20'
         repeat: DEFAULT
         constraints:
             latitude: '[37.4078, 37.4158]'
