@@ -67,7 +67,7 @@
 
 	<Placemark>
 		<name>Shockley Semiconductor</name>
-		<address>391 San Antonio Rd, San Antonio Shopping Center, Mountain View, CA</address>
+		<address>391 San Antonio Rd, San Antonio Road, Mountain View, CA</address>
 		<styleUrl>#default</styleUrl>
 		<Point>
 			<coordinates>-122.110865,37.404869,0</coordinates>
@@ -86,7 +86,7 @@
 	
 	<Placemark>
 		<name>Intel</name>
-		<address>2200 Mission College Blvd, Santa Clara, CA</address>
+		<address>365 East Middlefield Road, Mountain View, CA</address>
 		<styleUrl>#default</styleUrl>
 		<Point>
 			<coordinates>-121.963879,37.387684,0</coordinates>
@@ -95,6 +95,7 @@
 	
 	<Placemark>
 		<name>Xerox PARC</name>
+		<address>3333 Coyote Hill Road, Palo Alto, CA</address>
 		<styleUrl>#default</styleUrl>
 		<Point>
 			<coordinates>-122.1474553586547,37.40275903134739,0</coordinates>
@@ -148,7 +149,7 @@
 	
 	<Placemark>
 		<name>Silicon Graphics</name>
-		<address>1401 N. Shoreline Blvd., Mountain View, CA</address>
+		<address>1401 N. North Shoreline Blvd., Mountain View, CA</address>
 		<styleUrl>#default</styleUrl>
 		<Point>
 			<coordinates>-122.076922,37.414341,0</coordinates>
@@ -166,7 +167,7 @@
 	
 	<Placemark>
 		<name>Cisco Systems</name>
-		<address>300 E Tasman Dr, San Jose, CA</address>
+		<address>1525 O'Brien Drive, Melano Park, CA</address>
 		<styleUrl>#default</styleUrl>
 		<Point>
 			<coordinates>-121.932256,37.411934,0</coordinates>
