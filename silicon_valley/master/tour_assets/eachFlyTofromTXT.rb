@@ -9,7 +9,7 @@ require 'open-uri'
 include Kamelopard
 #include Kameloaprd::Functions
 
-file="./lg-chm-master/queries.txt"
+file="./queries.txt"
 
 # data filename should be the first argument ./me ./path/to/data-file
 #data_filename = File.basename(ARGV[0],'.*')
