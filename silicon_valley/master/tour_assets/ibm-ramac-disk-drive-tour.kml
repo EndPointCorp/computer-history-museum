@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+  <Document id="Document_240">
+    <gx:Tour id="Tour_244">
+      <name>tour68</name>
+        <gx:Playlist>
+<gx:FlyTo id="FlyTo_246">
+          <gx:duration>5</gx:duration>
+          <gx:flyToMode>bounce</gx:flyToMode>
+          <LookAt><longitude>-121.8964788966702</longitude><latitude>37.335906590446996</latitude><range>587.9896229305454</range><altitude>0</altitude><heading>-149.12296430104453</heading><tilt>48.04974189916036</tilt><range>587.9896229305454</range><altitudeMode>relativeToGround</altitudeMode><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+        </gx:FlyTo>
+        <gx:Wait id="Wait_247">
+          <gx:duration>5</gx:duration>
+        </gx:Wait>
+      </gx:Playlist>
+    </gx:Tour>
+    <NetworkLink id="NetworkLink_248">
+    <Link><href>http://localhost:9001/query.html?query=playtour=tour68</href><refreshMode>onChange</refreshMode><viewRefreshMode>never</viewRefreshMode></Link><flyToView>0</flyToView><refreshVisibility>0</refreshVisibility></NetworkLink>
+
+  </Document>
+</kml>
