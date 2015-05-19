@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+  <Document id="Document_15">
+    <name>HP Garage</name>
+    <visibility>1</visibility>
+    <open>0</open>
+    <Folder id="Folder_16">
+      <name>AutoPlay</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <NetworkLink id="NetworkLink_17">
+        <name>Autoplay</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Link id="Link_18">
+          <href>http://localhost:9001/query.html?query=playtour=HP%20Garage%20Tour</href>
+          <refreshMode>onChange</refreshMode>
+          <viewRefreshMode>never</viewRefreshMode>
+        </Link>
+        <flyToView>0</flyToView>
+        <refreshVisibility>0</refreshVisibility>
+      </NetworkLink>
+    </Folder>
+    <gx:Tour id="Tour_19">
+      <name>HP Garage Tour</name>
+      <gx:Playlist>
+        <gx:Wait id="Wait_20">
+          <!-- This wait is automatic, and helps prevent animation glitches -->
+          <gx:duration>0.1</gx:duration>
+        </gx:Wait>
+        <gx:FlyTo id="FlyTo_27">
+          <gx:duration>4</gx:duration>
+          <Camera id="Camera_25">
+            <longitude>-122.1538963044452</longitude>
+            <latitude>37.44250522499642</latitude>
+            <altitude>171.0891339055349</altitude>
+            <heading>-50.80903715177812</heading>
+            <tilt>25.29380571985923</tilt>
+            <roll>1.244049876930563</roll>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </Camera>
+        </gx:FlyTo>
+        <gx:Wait id="Wait_28">
+          <gx:duration>2</gx:duration>
+        </gx:Wait>
+      </gx:Playlist>
+    </gx:Tour>
+  </Document>
+</kml>
