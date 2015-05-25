@@ -1,36 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
-  <Document id="Document_240">
-    <gx:Tour id="Tour_244">
-      <name>tour83</name>
-        <gx:Playlist>
-<gx:FlyTo id="FlyTo_246">
-          <gx:duration>5</gx:duration>
-          <gx:flyToMode>bounce</gx:flyToMode>
-          <LookAt>
-            <longitude>-122.1345402754692</longitude>
-            <latitude>37.4116517866727</latitude>
-            <altitude>0</altitude>
-            <heading>123.2889592569163</heading>
-            <tilt>7.631638308865533</tilt>
-            <range>276.6156652454087</range>
-            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-          </LookAt>
-        </gx:FlyTo>
-        <gx:Wait id="Wait_247">
-          <gx:duration>5</gx:duration>
-        </gx:Wait>
-      </gx:Playlist>
-    </gx:Tour>
-    <NetworkLink id="NetworkLink_248">
-    <Link><href>http://localhost:9001/query.html?query=playtour=tour83</href><refreshMode>onChange</refreshMode><viewRefreshMode>never</viewRefreshMode></Link><flyToView>0</flyToView><refreshVisibility>0</refreshVisibility></NetworkLink>
-    <Placemark id="1.2.1">
-  <name>819 La Jennifer Way</name>
-  <address>819 La Jennifer Way, Palo Alto, CA 94306</address>
-  <styleUrl>#geocode</styleUrl>
+<Document id="Document_240">
+  <name>facebook-house-tour.kml</name>
+  <open>1</open>
+  <Style id="failed">
+    <IconStyle>
+      <scale>4</scale>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+      </Icon>
+      <hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+    </IconStyle>
+    <LabelStyle>
+      <scale>2.5</scale>
+    </LabelStyle>
+    <ListStyle>
+      <ItemIcon>
+        <href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+      </ItemIcon>
+    </ListStyle>
+  </Style>
+  <StyleMap id="failed0">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#failed</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#failed1</styleUrl>
+    </Pair>
+  </StyleMap>
+  <Style id="failed1">
+    <IconStyle>
+      <scale>4</scale>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+      </Icon>
+      <hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+    </IconStyle>
+    <LabelStyle>
+      <scale>2.5</scale>
+    </LabelStyle>
+    <ListStyle>
+      <ItemIcon>
+        <href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+      </ItemIcon>
+    </ListStyle>
+  </Style>
+  <gx:Tour kml:id="Tour_244">
+    <name>tour83</name>
+    <gx:Playlist>
+      <gx:FlyTo kml:id="FlyTo_246">
+        <gx:duration>5</gx:duration>
+        <LookAt>
+          <longitude>-122.1345402754692</longitude>
+          <latitude>37.4116517866727</latitude>
+          <altitude>0</altitude>
+          <heading>123.2889592569163</heading>
+          <tilt>7.631638308865533</tilt>
+          <range>276.6156652454087</range>
+          <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+        </LookAt>
+      </gx:FlyTo>
+      <gx:Wait kml:id="Wait_247"><gx:duration>5</gx:duration>
+</gx:Wait>
+    </gx:Playlist>
+  </gx:Tour>
+  <NetworkLink id="NetworkLink_248">
+    <Link>
+      <href>http://localhost:9001/query.html?query=playtour=tour83</href>
+    </Link>
+  </NetworkLink>
+  <Placemark id="1.2.1">
+    <name>Facebook House : 2004</name>
+    <address>819 La Jennifer Way, Palo Alto, CA 94306</address>
+    <styleUrl>#failed0</styleUrl>
     <Point>
       <coordinates>-122.13479,37.411782,0</coordinates>
     </Point>
   </Placemark>
-  </Document>
+</Document>
 </kml>
