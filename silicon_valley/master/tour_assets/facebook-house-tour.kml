@@ -7,8 +7,15 @@
 <gx:FlyTo id="FlyTo_246">
           <gx:duration>5</gx:duration>
           <gx:flyToMode>bounce</gx:flyToMode>
-          <LookAt><longitude>-122.13510840299462</longitude><latitude>37.41175328324368</latitude><range>97.79955172813828</range><altitude>1.7046382305464551</altitude><heading>123.74817668968323</heading><tilt>62.87993258072629</tilt><range>97.79955172813828</range><altitudeMode>relativeToGround</altitudeMode><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
-        </gx:FlyTo>
+          <LookAt>
+            <longitude>-122.1331043658577</longitude>
+            <latitude>37.41078663013909</latitude>
+            <altitude>0</altitude>
+            <heading>123.7152211193498</heading>
+            <tilt>49.05353083749982</tilt>
+            <range>1550.234800795787</range>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
         <gx:Wait id="Wait_247">
           <gx:duration>5</gx:duration>
         </gx:Wait>

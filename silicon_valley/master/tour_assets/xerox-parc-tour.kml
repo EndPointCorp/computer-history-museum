@@ -8,12 +8,12 @@
           <gx:duration>5</gx:duration>
           <gx:flyToMode>bounce</gx:flyToMode>
           <LookAt>
-            <longitude>-122.1479322786006</longitude>
-            <latitude>37.40342432814078</latitude>
+            <longitude>-122.1473391213423</longitude>
+            <latitude>37.40344310477133</latitude>
             <altitude>0</altitude>
-            <heading>-117.8297599373155</heading>
-            <tilt>53.68981910821334</tilt>
-            <range>622.3306721855217</range>
+            <heading>-119.4503134934019</heading>
+            <tilt>15.55529159612799</tilt>
+            <range>1565.824258489759</range>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
         </gx:FlyTo>
