@@ -16,6 +16,7 @@
             <range>1550.234800795787</range>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
+        </gx:FlyTo>
         <gx:Wait id="Wait_247">
           <gx:duration>5</gx:duration>
         </gx:Wait>
