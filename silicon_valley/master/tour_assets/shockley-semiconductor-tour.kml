@@ -7,7 +7,15 @@
 <gx:FlyTo id="FlyTo_246">
           <gx:duration>5</gx:duration>
           <gx:flyToMode>bounce</gx:flyToMode>
-          <LookAt><longitude>-122.1110445131634</longitude><latitude>37.40487167354817</latitude><range>92.8851711571114</range><altitude>0</altitude><heading>83.05044049314314</heading><tilt>49.22805775937571</tilt><range>92.8851711571114</range><altitudeMode>relativeToGround</altitudeMode><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
+          <LookAt>
+            <longitude>-122.1104628333772</longitude>
+            <latitude>37.40527710791395</latitude>
+            <altitude>0</altitude>
+            <heading>84.69944369965992</heading>
+            <tilt>34.82108715447418</tilt>
+            <range>698.6040459699028</range>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
         </gx:FlyTo>
         <gx:Wait id="Wait_247">
           <gx:duration>5</gx:duration>
@@ -16,6 +24,9 @@
     </gx:Tour>
     <NetworkLink id="NetworkLink_248">
     <Link><href>http://localhost:9001/query.html?query=playtour=tour70</href><refreshMode>onChange</refreshMode><viewRefreshMode>never</viewRefreshMode></Link><flyToView>0</flyToView><refreshVisibility>0</refreshVisibility></NetworkLink>
-
+    <Point>
+      <gx:drawOrder>1</gx:drawOrder>
+      <coordinates>-122.1104628333772,37.40527710791395,0</coordinates>
+    </Point>
   </Document>
 </kml>
