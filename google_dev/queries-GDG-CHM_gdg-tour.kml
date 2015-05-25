@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>KmlFile</name>
+	<open>1</open>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://developers.google.com/_static/2e90d8c49f/images/gdg-program-icon.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://developers.google.com/_static/2e90d8c49f/images/gdg-program-icon.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<NetworkLink id="NetworkLink_1110">
+		<name>Autoplay</name>
+		<Link id="Link_1111">
+			<href>http://localhost:9001/query.html?query=playtour=MathareTour</href>
+		</Link>
+	</NetworkLink>
+	<gx:Tour kml:id="Tour_00">
+		<name>MathareTour</name>
+		<gx:Playlist>
+			<gx:Wait kml:id="Wait_00"><gx:duration>0.1</gx:duration></gx:Wait>
+			<gx:FlyTo kml:id="FlyTo_00">
+				<gx:duration>8</gx:duration>
+				<LookAt>
+					<longitude>-93.90231665161524</longitude>
+					<latitude>26.56741856466148</latitude>
+					<altitude>0</altitude>
+					<heading>-3.083606091023158</heading>
+					<tilt>0</tilt>
+					<range>9728244.968723597</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+			</gx:FlyTo>
+			<gx:Wait kml:id="Wait_01"><gx:duration>2</gx:duration></gx:Wait>
+		</gx:Playlist>
+	</gx:Tour>
+</Document>
+</kml>
