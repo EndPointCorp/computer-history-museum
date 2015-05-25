@@ -24,6 +24,13 @@
     </gx:Tour>
     <NetworkLink id="NetworkLink_248">
     <Link><href>http://localhost:9001/query.html?query=playtour=tour83</href><refreshMode>onChange</refreshMode><viewRefreshMode>never</viewRefreshMode></Link><flyToView>0</flyToView><refreshVisibility>0</refreshVisibility></NetworkLink>
-
+    <Placemark id="1.2.1">
+  <name>819 La Jennifer Way</name>
+  <address>819 La Jennifer Way, Palo Alto, CA 94306</address>
+  <styleUrl>#geocode</styleUrl>
+    <Point>
+      <coordinates>-122.13479,37.411782,0</coordinates>
+    </Point>
+  </Placemark>
   </Document>
 </kml>
