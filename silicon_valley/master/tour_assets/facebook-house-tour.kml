@@ -3,6 +3,16 @@
 <Document id="Document_240">
   <name>facebook-house-tour.kml</name>
   <open>1</open>
+  <StyleMap id="failed0">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#failed</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#failed1</styleUrl>
+    </Pair>
+  </StyleMap>
   <Style id="failed">
     <IconStyle>
       <scale>4</scale>
@@ -20,16 +30,6 @@
       </ItemIcon>
     </ListStyle>
   </Style>
-  <StyleMap id="failed0">
-    <Pair>
-      <key>normal</key>
-      <styleUrl>#failed</styleUrl>
-    </Pair>
-    <Pair>
-      <key>highlight</key>
-      <styleUrl>#failed1</styleUrl>
-    </Pair>
-  </StyleMap>
   <Style id="failed1">
     <IconStyle>
       <scale>4</scale>
@@ -72,7 +72,7 @@
     </Link>
   </NetworkLink>
   <Placemark id="1.2.1">
-    <name>Facebook House : 2004</name>
+    <name>2004: Facebook House</name>
     <address>819 La Jennifer Way, Palo Alto, CA 94306</address>
     <styleUrl>#failed0</styleUrl>
     <Point>

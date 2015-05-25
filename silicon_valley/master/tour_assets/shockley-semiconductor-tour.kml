@@ -3,17 +3,17 @@
 <Document id="Document_240">
   <name>shockley-semiconductor-tour.kml</name>
   <open>1</open>
-  <StyleMap id="msn_red-stars">
+  <StyleMap id="mfailed">
     <Pair>
       <key>normal</key>
-      <styleUrl>#sn_red-stars</styleUrl>
+      <styleUrl>#failed</styleUrl>
     </Pair>
     <Pair>
       <key>highlight</key>
       <styleUrl>#sh_red-stars</styleUrl>
     </Pair>
   </StyleMap>
-  <Style id="sn_red-stars">
+  <Style id="failed">
     <IconStyle>
       <scale>4</scale>
       <Icon>
@@ -72,8 +72,8 @@
     </Link>
   </NetworkLink>
   <Placemark>
-    <name>Shockley Semicoductor : 1955</name>
-    <styleUrl>#msn_red-stars</styleUrl>
+    <name>1955: Shockley Semicoductor</name>
+    <styleUrl>#mfailed</styleUrl>
     <Point>
       <gx:drawOrder>1</gx:drawOrder>
       <coordinates>-122.1104628333772,37.40527710791395,0</coordinates>
