@@ -24,9 +24,11 @@
     </gx:Tour>
     <NetworkLink id="NetworkLink_248">
     <Link><href>http://localhost:9001/query.html?query=playtour=tour70</href><refreshMode>onChange</refreshMode><viewRefreshMode>never</viewRefreshMode></Link><flyToView>0</flyToView><refreshVisibility>0</refreshVisibility></NetworkLink>
-    <Point>
-      <gx:drawOrder>1</gx:drawOrder>
-      <coordinates>-122.1104628333772,37.40527710791395,0</coordinates>
-    </Point>
+    <Placemark>
+      <Point>
+        <gx:drawOrder>1</gx:drawOrder>
+        <coordinates>-122.1104628333772,37.40527710791395,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
