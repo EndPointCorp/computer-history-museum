@@ -1,21 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
-  <Document id="Document_240">
-    <gx:Tour id="Tour_244">
-      <name>tour68</name>
-        <gx:Playlist>
-<gx:FlyTo id="FlyTo_246">
-          <gx:duration>5</gx:duration>
-          <gx:flyToMode>bounce</gx:flyToMode>
-          <LookAt><longitude>-121.8964788966702</longitude><latitude>37.335906590446996</latitude><range>587.9896229305454</range><altitude>0</altitude><heading>-149.12296430104453</heading><tilt>48.04974189916036</tilt><range>587.9896229305454</range><altitudeMode>relativeToGround</altitudeMode><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>
-        </gx:FlyTo>
-        <gx:Wait id="Wait_247">
-          <gx:duration>5</gx:duration>
-        </gx:Wait>
-      </gx:Playlist>
-    </gx:Tour>
-    <NetworkLink id="NetworkLink_248">
-    <Link><href>http://localhost:9001/query.html?query=playtour=tour68</href><refreshMode>onChange</refreshMode><viewRefreshMode>never</viewRefreshMode></Link><flyToView>0</flyToView><refreshVisibility>0</refreshVisibility></NetworkLink>
-
-  </Document>
+<Document id="Document_240">
+  <name>ibm-ramac-disk-drive-tour.kml</name>
+  <open>1</open>
+  <Style id="failed">
+    <IconStyle>
+      <scale>4</scale>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+      </Icon>
+      <hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+    </IconStyle>
+    <LabelStyle>
+      <scale>2.5</scale>
+    </LabelStyle>
+    <ListStyle>
+      <ItemIcon>
+        <href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+      </ItemIcon>
+    </ListStyle>
+  </Style>
+  <Style id="failed1">
+    <IconStyle>
+      <scale>4</scale>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+      </Icon>
+      <hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+    </IconStyle>
+    <LabelStyle>
+      <scale>2.5</scale>
+    </LabelStyle>
+    <ListStyle>
+      <ItemIcon>
+        <href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+      </ItemIcon>
+    </ListStyle>
+  </Style>
+  <StyleMap id="failed0">
+    <Pair>
+      <key>normal</key>
+      <styleUrl>#failed</styleUrl>
+    </Pair>
+    <Pair>
+      <key>highlight</key>
+      <styleUrl>#failed1</styleUrl>
+    </Pair>
+  </StyleMap>
+  <gx:Tour kml:id="Tour_244">
+    <name>tour68</name>
+    <gx:Playlist>
+      <gx:FlyTo kml:id="FlyTo_246">
+        <gx:duration>5</gx:duration>
+        <LookAt>
+          <longitude>-121.8959741273767</longitude>
+          <latitude>37.33583802495774</latitude>
+          <altitude>0</altitude>
+          <heading>-154.0598143700067</heading>
+          <tilt>25.68693627370774</tilt>
+          <range>1274.906380020114</range>
+          <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+        </LookAt>
+      </gx:FlyTo>
+      <gx:Wait kml:id="Wait_247"><gx:duration>5</gx:duration>
+</gx:Wait>
+    </gx:Playlist>
+  </gx:Tour>
+  <NetworkLink id="NetworkLink_248">
+    <Link>
+      <href>http://localhost:9001/query.html?query=playtour=tour68</href>
+    </Link>
+  </NetworkLink>
+  <Placemark>
+    <name>1956: IBM RAMAC</name>
+    <LookAt>
+      <longitude>-121.8959741273767</longitude>
+      <latitude>37.33583802495774</latitude>
+      <altitude>0</altitude>
+      <heading>-154.0598143700067</heading>
+      <tilt>25.68693627370774</tilt>
+      <range>1274.906380020114</range>
+      <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+    </LookAt>
+    <styleUrl>#failed0</styleUrl>
+    <Point>
+      <gx:drawOrder>1</gx:drawOrder>
+      <coordinates>-121.8959979940362,37.33660938311866,0</coordinates>
+    </Point>
+  </Placemark>
+</Document>
 </kml>
