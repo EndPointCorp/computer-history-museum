@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+  <Document id="Document_253">
+    <name>Stanford Jacks Hall</name>
+    <visibility>1</visibility>
+    <open>0</open>
+    <Folder id="Folder_254">
+      <name>AutoPlay</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <NetworkLink id="NetworkLink_255">
+        <name>Autoplay</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Link id="Link_256">
+          <href>http://localhost:8765/query.html?query=playtour=Stanford%20Jacks%20Hall%20Tour</href>
+          <refreshMode>onChange</refreshMode>
+          <viewRefreshMode>never</viewRefreshMode>
+        </Link>
+        <flyToView>0</flyToView>
+        <refreshVisibility>0</refreshVisibility>
+      </NetworkLink>
+    </Folder>
+    <gx:Tour id="Tour_257">
+      <name>Stanford Jacks Hall Tour</name>
+      <gx:Playlist>
+        <gx:Wait id="Wait_258">
+          <!-- This wait is automatic, and helps prevent animation glitches -->
+          <gx:duration>0.1</gx:duration>
+        </gx:Wait>
+        <gx:FlyTo id="FlyTo_265">
+          <gx:duration>4</gx:duration>
+          <Camera id="Camera_263">
+            <longitude>-122.1699569684462</longitude>
+            <latitude>37.42895597116059</latitude>
+            <altitude>2.500000000271115</altitude>
+            <heading>-127.7128828883283</heading>
+            <tilt>90.97615072345388</tilt>
+            <roll>6.592474990308216e-05</roll>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </Camera>
+        </gx:FlyTo>
+        <gx:Wait id="Wait_266">
+          <gx:duration>2</gx:duration>
+        </gx:Wait>
+      </gx:Playlist>
+    </gx:Tour>
+  </Document>
+</kml>
