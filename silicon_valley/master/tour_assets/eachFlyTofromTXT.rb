@@ -38,7 +38,7 @@ geodata.each do | geo |
 
     # ISpaces Autoplay
     name_folder 'AutoPlay'
-    get_folder << Kamelopard::NetworkLink.new( URI::encode("http://localhost:9001/query.html?query=playtour=#{tourname}"), {:name => "Autoplay", :flyToView => 0, :refreshVisibility => 0} )
+    get_folder << Kamelopard::NetworkLink.new( URI::encode("http://localhost:8765/query.html?query=playtour=#{tourname}"), {:name => "Autoplay", :flyToView => 0, :refreshVisibility => 0} )
 
     name_tour   "#{tourname}"
 
