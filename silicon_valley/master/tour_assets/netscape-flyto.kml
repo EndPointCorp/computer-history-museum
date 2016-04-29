@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+  <Document id="Document_305">
+    <name>Netscape Flyto</name>
+    <visibility>1</visibility>
+    <open>0</open>
+    <Folder id="Folder_306">
+      <name>AutoPlay</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <NetworkLink id="NetworkLink_307">
+        <name>Autoplay</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Link id="Link_308">
+          <href>http://localhost:8765/query.html?query=playtour=netscape-flyto</href>
+          <refreshMode>onChange</refreshMode>
+          <viewRefreshMode>never</viewRefreshMode>
+        </Link>
+        <flyToView>0</flyToView>
+        <refreshVisibility>0</refreshVisibility>
+      </NetworkLink>
+      <NetworkLink id="NetworkLink_312">
+        <name>Autoplay</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Link id="Link_313">
+          <href>http://localhost:8765/query.html?query=playtour=netscape-flyto</href>
+          <refreshMode>onChange</refreshMode>
+          <viewRefreshMode>never</viewRefreshMode>
+        </Link>
+        <flyToView>0</flyToView>
+        <refreshVisibility>0</refreshVisibility>
+      </NetworkLink>
+      <NetworkLink id="NetworkLink_321">
+        <name>Autoplay</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Link id="Link_322">
+          <href>http://localhost:8765/query.html?query=playtour=netscape-flyto</href>
+          <refreshMode>onChange</refreshMode>
+          <viewRefreshMode>never</viewRefreshMode>
+        </Link>
+        <flyToView>0</flyToView>
+        <refreshVisibility>0</refreshVisibility>
+      </NetworkLink>
+    </Folder>
+    <gx:Tour id="Tour_314">
+      <name>netscape-flyto</name>
+      <gx:Playlist>
+        <gx:Wait id="Wait_315">
+          <!-- This wait is automatic, and helps prevent animation glitches -->
+          <gx:duration>0.1</gx:duration>
+        </gx:Wait>
+        <gx:FlyTo id="FlyTo_319">
+          <gx:duration>6</gx:duration>
+          <Camera id="Camera_317">
+            <longitude>-122.0539189999997</longitude>
+            <latitude>37.39580300000011</latitude>
+            <altitude>2.500000001134822</altitude>
+            <heading>172.0730607752431</heading>
+            <tilt>90.7439908084832</tilt>
+            <roll>7.987136883720946e-13</roll>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </Camera>
+        </gx:FlyTo>
+        <gx:Wait id="Wait_320">
+          <gx:duration>4</gx:duration>
+        </gx:Wait>
+        <gx:FlyTo id="FlyTo_326">
+          <gx:duration>6</gx:duration>
+          <Camera id="Camera_324">
+            <longitude>-122.0539189999997</longitude>
+            <latitude>37.39580300000011</latitude>
+            <altitude>2.500000001134822</altitude>
+            <heading>172.0730607752431</heading>
+            <tilt>90.7439908084832</tilt>
+            <roll>7.987136883720946e-13</roll>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </Camera>
+        </gx:FlyTo>
+        <gx:Wait id="Wait_327">
+          <gx:duration>4</gx:duration>
+        </gx:Wait>
+      </gx:Playlist>
+    </gx:Tour>
+  </Document>
+</kml>

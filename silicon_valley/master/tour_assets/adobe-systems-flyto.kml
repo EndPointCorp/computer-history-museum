@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+  <Document id="Document_273">
+    <name>Adobe Systems Flyto</name>
+    <visibility>1</visibility>
+    <open>0</open>
+    <Folder id="Folder_274">
+      <name>AutoPlay</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <NetworkLink id="NetworkLink_275">
+        <name>Autoplay</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Link id="Link_276">
+          <href>http://localhost:8765/query.html?query=playtour=adobe-systems-flyto</href>
+          <refreshMode>onChange</refreshMode>
+          <viewRefreshMode>never</viewRefreshMode>
+        </Link>
+        <flyToView>0</flyToView>
+        <refreshVisibility>0</refreshVisibility>
+      </NetworkLink>
+      <NetworkLink id="NetworkLink_280">
+        <name>Autoplay</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Link id="Link_281">
+          <href>http://localhost:8765/query.html?query=playtour=adobe-systems-flyto</href>
+          <refreshMode>onChange</refreshMode>
+          <viewRefreshMode>never</viewRefreshMode>
+        </Link>
+        <flyToView>0</flyToView>
+        <refreshVisibility>0</refreshVisibility>
+      </NetworkLink>
+    </Folder>
+    <gx:Tour id="Tour_282">
+      <name>adobe-systems-flyto</name>
+      <gx:Playlist>
+        <gx:Wait id="Wait_283">
+          <!-- This wait is automatic, and helps prevent animation glitches -->
+          <gx:duration>0.1</gx:duration>
+        </gx:Wait>
+        <gx:FlyTo id="FlyTo_287">
+          <gx:duration>6</gx:duration>
+          <Camera id="Camera_285">
+            <longitude>-121.892449</longitude>
+            <latitude>37.33091899999994</latitude>
+            <altitude>2.500000000761696</altitude>
+            <heading>-76.86991595647116</heading>
+            <tilt>103.8529354838977</tilt>
+            <roll>-1.319433231138381e-13</roll>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </Camera>
+        </gx:FlyTo>
+        <gx:Wait id="Wait_288">
+          <gx:duration>4</gx:duration>
+        </gx:Wait>
+      </gx:Playlist>
+    </gx:Tour>
+  </Document>
+</kml>
