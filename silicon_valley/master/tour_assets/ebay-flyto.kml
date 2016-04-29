@@ -1,30 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
-  <Document id="Document_161">
+  <Document id="Document_141">
     <name>Ebay Flyto</name>
     <visibility>1</visibility>
     <open>0</open>
-    <Folder id="Folder_162">
+    <Folder id="Folder_145">
       <name>AutoPlay</name>
       <visibility>1</visibility>
       <open>0</open>
-      <NetworkLink id="NetworkLink_163">
+      <NetworkLink id="NetworkLink_146">
         <name>Autoplay</name>
         <visibility>1</visibility>
         <open>0</open>
-        <Link id="Link_164">
-          <href>http://localhost:8765/query.html?query=playtour=ebay-flyto</href>
-          <refreshMode>onChange</refreshMode>
-          <viewRefreshMode>never</viewRefreshMode>
-        </Link>
-        <flyToView>0</flyToView>
-        <refreshVisibility>0</refreshVisibility>
-      </NetworkLink>
-      <NetworkLink id="NetworkLink_168">
-        <name>Autoplay</name>
-        <visibility>1</visibility>
-        <open>0</open>
-        <Link id="Link_169">
+        <Link id="Link_147">
           <href>http://localhost:8765/query.html?query=playtour=ebay-flyto</href>
           <refreshMode>onChange</refreshMode>
           <viewRefreshMode>never</viewRefreshMode>
@@ -33,16 +21,16 @@
         <refreshVisibility>0</refreshVisibility>
       </NetworkLink>
     </Folder>
-    <gx:Tour id="Tour_170">
+    <gx:Tour id="Tour_148">
       <name>ebay-flyto</name>
       <gx:Playlist>
-        <gx:Wait id="Wait_171">
+        <gx:Wait id="Wait_149">
           <!-- This wait is automatic, and helps prevent animation glitches -->
           <gx:duration>0.1</gx:duration>
         </gx:Wait>
-        <gx:FlyTo id="FlyTo_175">
+        <gx:FlyTo id="FlyTo_153">
           <gx:duration>6</gx:duration>
-          <LookAt id="LookAt_173">
+          <LookAt id="LookAt_151">
             <longitude>-121.9275819008502</longitude>
             <latitude>37.29553225911729</latitude>
             <altitude>0.0</altitude>
@@ -52,7 +40,7 @@
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
         </gx:FlyTo>
-        <gx:Wait id="Wait_176">
+        <gx:Wait id="Wait_154">
           <gx:duration>4</gx:duration>
         </gx:Wait>
       </gx:Playlist>

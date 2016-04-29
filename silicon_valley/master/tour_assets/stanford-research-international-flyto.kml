@@ -1,30 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
-  <Document id="Document_113">
+  <Document id="Document_99">
     <name>Stanford Research International Flyto</name>
     <visibility>1</visibility>
     <open>0</open>
-    <Folder id="Folder_114">
+    <Folder id="Folder_103">
       <name>AutoPlay</name>
       <visibility>1</visibility>
       <open>0</open>
-      <NetworkLink id="NetworkLink_115">
+      <NetworkLink id="NetworkLink_104">
         <name>Autoplay</name>
         <visibility>1</visibility>
         <open>0</open>
-        <Link id="Link_116">
-          <href>http://localhost:8765/query.html?query=playtour=stanford-research-international-flyto</href>
-          <refreshMode>onChange</refreshMode>
-          <viewRefreshMode>never</viewRefreshMode>
-        </Link>
-        <flyToView>0</flyToView>
-        <refreshVisibility>0</refreshVisibility>
-      </NetworkLink>
-      <NetworkLink id="NetworkLink_120">
-        <name>Autoplay</name>
-        <visibility>1</visibility>
-        <open>0</open>
-        <Link id="Link_121">
+        <Link id="Link_105">
           <href>http://localhost:8765/query.html?query=playtour=stanford-research-international-flyto</href>
           <refreshMode>onChange</refreshMode>
           <viewRefreshMode>never</viewRefreshMode>
@@ -33,16 +21,16 @@
         <refreshVisibility>0</refreshVisibility>
       </NetworkLink>
     </Folder>
-    <gx:Tour id="Tour_122">
+    <gx:Tour id="Tour_106">
       <name>stanford-research-international-flyto</name>
       <gx:Playlist>
-        <gx:Wait id="Wait_123">
+        <gx:Wait id="Wait_107">
           <!-- This wait is automatic, and helps prevent animation glitches -->
           <gx:duration>0.1</gx:duration>
         </gx:Wait>
-        <gx:FlyTo id="FlyTo_127">
+        <gx:FlyTo id="FlyTo_111">
           <gx:duration>6</gx:duration>
-          <LookAt id="LookAt_125">
+          <LookAt id="LookAt_109">
             <longitude>-122.1778522296252</longitude>
             <latitude>37.45638995252759</latitude>
             <altitude>0.0</altitude>
@@ -52,7 +40,7 @@
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
         </gx:FlyTo>
-        <gx:Wait id="Wait_128">
+        <gx:Wait id="Wait_112">
           <gx:duration>4</gx:duration>
         </gx:Wait>
       </gx:Playlist>

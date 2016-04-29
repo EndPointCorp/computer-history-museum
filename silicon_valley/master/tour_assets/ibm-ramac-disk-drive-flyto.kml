@@ -1,30 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
-  <Document id="Document_17">
+  <Document id="Document_15">
     <name>Ibm Ramac Disk Drive Flyto</name>
     <visibility>1</visibility>
     <open>0</open>
-    <Folder id="Folder_18">
+    <Folder id="Folder_19">
       <name>AutoPlay</name>
       <visibility>1</visibility>
       <open>0</open>
-      <NetworkLink id="NetworkLink_19">
+      <NetworkLink id="NetworkLink_20">
         <name>Autoplay</name>
         <visibility>1</visibility>
         <open>0</open>
-        <Link id="Link_20">
-          <href>http://localhost:8765/query.html?query=playtour=ibm-ramac-disk-drive-flyto</href>
-          <refreshMode>onChange</refreshMode>
-          <viewRefreshMode>never</viewRefreshMode>
-        </Link>
-        <flyToView>0</flyToView>
-        <refreshVisibility>0</refreshVisibility>
-      </NetworkLink>
-      <NetworkLink id="NetworkLink_24">
-        <name>Autoplay</name>
-        <visibility>1</visibility>
-        <open>0</open>
-        <Link id="Link_25">
+        <Link id="Link_21">
           <href>http://localhost:8765/query.html?query=playtour=ibm-ramac-disk-drive-flyto</href>
           <refreshMode>onChange</refreshMode>
           <viewRefreshMode>never</viewRefreshMode>
@@ -33,16 +21,16 @@
         <refreshVisibility>0</refreshVisibility>
       </NetworkLink>
     </Folder>
-    <gx:Tour id="Tour_26">
+    <gx:Tour id="Tour_22">
       <name>ibm-ramac-disk-drive-flyto</name>
       <gx:Playlist>
-        <gx:Wait id="Wait_27">
+        <gx:Wait id="Wait_23">
           <!-- This wait is automatic, and helps prevent animation glitches -->
           <gx:duration>0.1</gx:duration>
         </gx:Wait>
-        <gx:FlyTo id="FlyTo_31">
+        <gx:FlyTo id="FlyTo_27">
           <gx:duration>6</gx:duration>
-          <LookAt id="LookAt_29">
+          <LookAt id="LookAt_25">
             <longitude>-121.896481014526</longitude>
             <latitude>37.33590377574463</latitude>
             <altitude>0.0</altitude>
@@ -52,7 +40,7 @@
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
         </gx:FlyTo>
-        <gx:Wait id="Wait_32">
+        <gx:Wait id="Wait_28">
           <gx:duration>4</gx:duration>
         </gx:Wait>
       </gx:Playlist>
