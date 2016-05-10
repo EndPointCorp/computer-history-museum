@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+  <Document id="Document_111">
+    <name>1981: Silicon Graphics FlyTo</name>
+    <visibility>1</visibility>
+    <open>0</open>
+    <Folder id="Folder_112">
+      <name>AutoPlay</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <NetworkLink id="NetworkLink_113">
+        <name>Autoplay</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Link id="Link_114">
+          <href>http://localhost:8765/query.html?query=playtour=1981-silicon-graphics-flyto</href>
+          <refreshMode>onChange</refreshMode>
+          <viewRefreshMode>never</viewRefreshMode>
+        </Link>
+        <flyToView>0</flyToView>
+        <refreshVisibility>0</refreshVisibility>
+      </NetworkLink>
+    </Folder>
+    <gx:Tour id="Tour_115">
+      <name>1981-silicon-graphics-flyto</name>
+      <gx:Playlist>
+        <gx:Wait id="Wait_116">
+          <!-- This wait is automatic, and helps prevent animation glitches -->
+          <gx:duration>0.1</gx:duration>
+        </gx:Wait>
+        <gx:FlyTo id="FlyTo_126">
+          <gx:duration>1.5</gx:duration>
+          <LookAt id="LookAt_124">
+            <longitude>-121.98363945984906</longitude>
+            <latitude>37.345415697409074</latitude>
+            <altitude>0.0</altitude>
+            <heading>-11.935669425610028</heading>
+            <tilt>68.75333746623936</tilt>
+            <range>12781.627332598891</range>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+        </gx:FlyTo>
+        <gx:Wait id="Wait_127">
+          <gx:duration>0.5</gx:duration>
+        </gx:Wait>
+        <gx:FlyTo id="FlyTo_131">
+          <gx:duration>10</gx:duration>
+          <LookAt id="LookAt_129">
+            <longitude>-122.07754330206697</longitude>
+            <latitude>37.41396593588508</latitude>
+            <altitude>0.0</altitude>
+            <heading>54.590616637024056</heading>
+            <tilt>67.67</tilt>
+            <range>97.67</range>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+        </gx:FlyTo>
+        <gx:Wait id="Wait_132">
+          <gx:duration>10</gx:duration>
+        </gx:Wait>
+      </gx:Playlist>
+    </gx:Tour>
+  </Document>
+</kml>
