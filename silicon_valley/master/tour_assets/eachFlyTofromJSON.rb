@@ -109,8 +109,14 @@ points.each do |p,v|
         if modifyView
             # override abstract_views
             puts "...overriding view"
-            n[:tilt] = 67.67
-            n[:range] = 97.67
+            if p[:title].include? "Adobe"
+                puts "   ...adjusting for #{n[:name]}"
+                n[:tilt] = 52.67
+                n[:range] = 217.67
+            else
+                n[:tilt] = 52.67
+                n[:range] = 67.67
+            end
             modifyView=false
         end
         place << n
@@ -122,7 +128,7 @@ points.each do |p,v|
     puts "Building tour: #{tourname}"
 
     # fly to overview
-    fly_to make_view_from(place.last), :duration => 1.5
+    fly_to make_view_from(place.last), :duration => 2.5 
 
     # pause
     pause 0.5
