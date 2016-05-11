@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+  <Document id="Document_10">
+    <name>Silicon Valley Flyto</name>
+    <visibility>1</visibility>
+    <open>0</open>
+    <Folder id="Folder_11">
+      <name>AutoPlay</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <NetworkLink id="NetworkLink_12">
+        <name>Autoplay</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Link id="Link_13">
+          <href>http://localhost:8765/query.html?query=playtour=silicon-valley-flyto</href>
+          <refreshMode>onChange</refreshMode>
+          <viewRefreshMode>never</viewRefreshMode>
+        </Link>
+        <flyToView>0</flyToView>
+        <refreshVisibility>0</refreshVisibility>
+      </NetworkLink>
+    </Folder>
+    <gx:Tour id="Tour_14">
+      <name>silicon-valley-flyto</name>
+      <gx:Playlist>
+        <gx:Wait id="Wait_15">
+          <!-- This wait is automatic, and helps prevent animation glitches -->
+          <gx:duration>0.1</gx:duration>
+        </gx:Wait>
+        <gx:FlyTo id="FlyTo_19">
+          <gx:duration>6</gx:duration>
+          <LookAt id="LookAt_17">
+            <longitude>-122.0575434036582</longitude>
+            <latitude>37.38747397766274</latitude>
+            <altitude>0.0</altitude>
+            <heading>-15.0</heading>
+            <tilt>67.67</tilt>
+            <range>8000.0</range>
+            <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+          </LookAt>
+        </gx:FlyTo>
+        <gx:Wait id="Wait_20">
+          <gx:duration>4</gx:duration>
+        </gx:Wait>
+      </gx:Playlist>
+    </gx:Tour>
+  </Document>
+</kml>
