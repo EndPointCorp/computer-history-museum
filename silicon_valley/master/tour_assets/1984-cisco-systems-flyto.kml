@@ -46,17 +46,17 @@
         <gx:FlyTo id="FlyTo_219">
           <gx:duration>12</gx:duration>
           <LookAt id="LookAt_217">
-            <longitude>-121.9322357167166</longitude>
-            <latitude>37.41174700094151</latitude>
+            <longitude>-122.1408903000873</longitude>
+            <latitude>37.47710130005817</latitude>
             <altitude>0.0</altitude>
-            <heading>163.90756001933306</heading>
-            <tilt>52.67</tilt>
-            <range>67.67</range>
+            <heading>0.0</heading>
+            <tilt>67.67</tilt>
+            <range>167.67</range>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
         </gx:FlyTo>
         <gx:Wait id="Wait_220">
-          <gx:duration>12</gx:duration>
+          <gx:duration>3</gx:duration>
         </gx:Wait>
       </gx:Playlist>
     </gx:Tour>

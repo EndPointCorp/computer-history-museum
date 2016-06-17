@@ -35,8 +35,8 @@
             <latitude>37.38747397766274</latitude>
             <altitude>0.0</altitude>
             <heading>-2.221264423621692e-09</heading>
-            <tilt>0.0</tilt>
-            <range>47122.96597334866</range>
+            <tilt>52.67</tilt>
+            <range>67.67</range>
             <gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
           </LookAt>
         </gx:FlyTo>
@@ -56,7 +56,7 @@
           </LookAt>
         </gx:FlyTo>
         <gx:Wait id="Wait_242">
-          <gx:duration>6</gx:duration>
+          <gx:duration>3</gx:duration>
         </gx:Wait>
       </gx:Playlist>
     </gx:Tour>

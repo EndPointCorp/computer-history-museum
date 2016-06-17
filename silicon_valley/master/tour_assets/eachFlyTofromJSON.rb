@@ -95,7 +95,7 @@ points.each do |p,v|
 
     # Process XML :flyto
     xml_str = p[:flyto]
-    puts xml_str
+    #puts xml_str
 
     # Convert to Placemark String
     xml_plmrk_str = "<kml xmlns=\"http://www.opengis.net/kml/2.2\" xmlns:gx=\"http://www.google.com/kml/ext/2.2\" xmlns:kml=\"http://www.opengis.net/kml/2.2\"><Document><Placemark>#{xml_str}</Placemark><Placemark>#{std_view}</Placemark></Document></kml>"
@@ -104,28 +104,43 @@ points.each do |p,v|
     #each_placemark(XML::Document.file("#{xml_plmrk_str}")) do |p,v|
     
     place = []
-    modifyView=true
+    modifyView = true
     each_placemark(xml_doc) do |m,n|
         if modifyView
             # override abstract_views
-            puts "...overriding view"
-            if p[:title].include? "Adobe"
+            case true 
+            when p[:title].include?("Adobe")
+                puts "...overriding view: #{p[:title]}"
                 puts "   ...adjusting for #{n[:name]}"
                 n[:tilt] = 52.67
                 n[:range] = 217.67
+                puts n
+
+                # Reset modifyview
+                modifyView = false
+
+            when p[:title].include?("Cisco")
+                puts "...overriding view: #{p[:title]}"
+                puts "   ...adjusting for #{n[:name]}"
+                n[:tilt] = 67.67
+                n[:range] = 167.67
+                puts n
+
+                # Reset modifyview
+                modifyView = false
+
             else
                 n[:tilt] = 52.67
                 n[:range] = 67.67
             end
-            modifyView=false
         end
         place << n
     end
 
-    puts place
+    #puts place
 
-    puts "...returing to overview"
-    puts "Building tour: #{tourname}"
+    #puts "...returing to overview"
+    #puts "Building tour: #{tourname}"
 
     # fly to overview
     fly_to make_view_from(place.last), :duration => 2.5 
@@ -140,12 +155,12 @@ points.each do |p,v|
     # fly to location
     fly_to make_view_from(place.first), :duration => rest
 
-    puts "...resting for: #{rest}"
-    pause rest 
+    #puts "...resting for: #{rest}"
+    #pause rest 
+    pause 3
 
     # output to the same name as the data file, except with .kml extension
     outfile = [ tourname, 'kml' ].join('.')
     write_kml_to outfile
     i += 1
 end
-

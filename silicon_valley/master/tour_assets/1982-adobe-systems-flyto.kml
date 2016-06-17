@@ -56,7 +56,7 @@
           </LookAt>
         </gx:FlyTo>
         <gx:Wait id="Wait_176">
-          <gx:duration>12</gx:duration>
+          <gx:duration>3</gx:duration>
         </gx:Wait>
       </gx:Playlist>
     </gx:Tour>

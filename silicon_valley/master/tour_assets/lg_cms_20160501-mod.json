@@ -102,7 +102,7 @@
   "pk": 73, 
   "model": "geo.bookmark", 
   "fields": {
-    "flytoview": "<LookAt><longitude>-121.9322357167166</longitude><latitude>37.41174700094151</latitude><range>231.3270612456435</range><altitude>0</altitude><heading>163.90756001933306</heading><tilt>77.97157218360533</tilt><range>231.3270612456435</range><altitudeMode>relativeToGround</altitudeMode><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>", 
+    "flytoview": "<LookAt><longitude>-122.1408903000873</longitude><latitude>37.47710130005817</latitude><altitude>0</altitude><heading>0</heading><tilt>63.5</tilt><range>284</range><gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode></LookAt>",
     "description": "", 
     "group": 1, 
     "slug": "cisco-systems", 
